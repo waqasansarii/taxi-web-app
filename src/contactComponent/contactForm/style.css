@@ -1,0 +1,73 @@
+.msg_form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+    /* border: 2px solid; */
+    width: fit-content;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.contact_form_div{
+    margin-top: 30px;
+}
+.input{
+    width: 500px;
+    outline: none;
+    border: 1px solid steelblue;
+    height: 30px;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 1em;
+    margin-top: 10px;
+
+}
+.input_btn{
+    width: 520px;
+    margin-top: 10px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: steelblue;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.input_btn:active{
+    background-color: rgb(161, 175, 187);
+}
+.input_btn:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:570px){
+    .input{
+        width: 350px;
+        height: 25px;
+    }
+    .input_btn{
+        width: 370px;
+    }
+}
+@media screen and (max-width:416px){
+    .input{
+        width: 270px;
+        height: 25px;
+        border-radius: 5px;
+    }
+    .input_btn{
+        width: 290px;
+    }
+}
+@media screen and (max-width:330px){
+    .input{
+        width: 230px;
+        height: 20px;
+        border-radius: 5px;
+    }
+    .input_btn{
+        width: 250px;
+    }
+}

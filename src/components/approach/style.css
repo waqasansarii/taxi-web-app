@@ -1,0 +1,108 @@
+.main_point2_div{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid 2px; */
+    width: fit-content;
+    /* text-align: center; */
+    margin: 0px auto;
+    margin-top: 60px;
+}
+.point_head{
+    text-align: center;
+    margin-top: 80px;
+}
+.point_span2{
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.points_para2{
+    margin-left: 35px;
+    margin-top: 5px;
+    font-size: .9em;
+    font-style: oblique;
+    color: grey;
+}
+.check2{
+    color: rgb(86, 128, 23);
+    font-size: 1.5em !important;
+}
+.point2_2,.point4_2{
+    margin-top: 10px;
+    
+}
+.points2_div2{
+    margin-left: 30px;
+    
+}
+.safety_para{
+    margin: 0px auto;
+    /* border: solid 2px; */
+    width: fit-content;
+    text-align: center;
+    color: rgb(128, 177, 55);
+    margin-top: 30px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+@media screen and  (max-width:850px){
+    .main_point2_div{
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .points2_div2{
+        margin-left: 0px;
+    }
+    .point_head{
+        font-size: 2.5em;
+    }
+    .point2_2,.point3_2,.point4_2{
+        margin-top: 20px;
+    }
+}
+@media screen and  (max-width:500px){
+    
+    .points2_div2{
+        margin-left: 0px;
+    }
+    .check2{
+        font-size: 1em !important;
+    }
+    .point_span2{
+        font-size: 1em;
+    }
+    .points_para2{
+        margin-left: 20px;
+    }
+    .point_head{
+        font-size: 1.8em;
+    }
+    .point2_2,.point3_2,.point4_2{
+        margin-top: 20px;
+    }
+}
+@media screen and  (max-width:370px){
+    
+    .points2_div2{
+        margin-left: 0px;
+    }
+    .check2{
+        font-size: 1em !important;
+    }
+    .point_span2{
+        font-size: 1em;
+    }
+    .points_para2{
+        margin-left: 22px;
+        font-size: .8em;
+    }
+    .point_head{
+        font-size: 1.3em;
+    }
+    .point2_2,.point3_2,.point4_2{
+        margin-top: 20px;
+    }
+}

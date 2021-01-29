@@ -1,0 +1,180 @@
+.whoareyou_main_div{
+    /* border: solid 2px; */
+    margin-top: 60px;
+}
+.whoareWe_head{
+    margin-left: 10%;
+    color: rgb(69, 129, 9);
+}
+.whoareWe_para{
+    /* border: 2px solid; */
+    margin-top: 15px;
+    margin-left: 10%;
+    line-height: 2em;
+    width: 600px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.whatwedo_div{
+    /* text-align: right; */
+    margin-top: 50px;
+}
+.whoareWe_head2{
+    margin-left: 45%;
+    color: rgb(69, 129, 9);
+}
+
+/* .para_div{
+    border: solid 2px;
+    text-align: right;
+    
+} */
+.whoareWe_para2{
+    
+    /* border: 2px solid; */
+    /* text-align: right; */
+    margin-top: 15px;
+    margin-left: 45%;
+    line-height: 2em;
+    width: 600px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+.whychooseus_div{
+    margin-top: 60px;
+}
+
+.whychooseus_head{
+    margin-left: 10%;
+    color: rgb(69, 129, 9);
+}
+.whychooseus_para{
+    /* border: 2px solid; */
+    margin-top: 15px;
+    margin-left: 10%;
+    line-height: 2em;
+    width: 600px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+@media screen and (max-width:1115px){
+    .whoareWe_head2{
+        margin-left: 35%;
+    }
+    .whoareWe_para2{
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width:952px){
+
+    .whoareWe_para2{
+        margin-left: 45%;
+        font-size: .8em;
+        width: 400px;
+    }
+    .whoareWe_head2{
+        margin-left: 45%;
+        font-size: 1.5em;
+    }
+    .whoareWe_head,.whychooseus_head{
+        /* margin-left: 40%; */
+        font-size: 1.5em;
+    }
+    .whoareWe_para,.whychooseus_para{
+        margin-left: 10%;
+        width: 400px;
+        font-size: .8em;
+    }
+}
+@media screen and (max-width:752px){
+
+    .whoareWe_para2{
+        margin-left: 45%;
+        font-size: .8em;
+        width: 300px;
+    }
+    .whoareWe_head2{
+        margin-left: 45%;
+        font-size: 1.5em;
+    }
+    .whoareWe_head,.whychooseus_head{
+        /* margin-left: 40%; */
+        font-size: 1.5em;
+    }
+    .whoareWe_para,.whychooseus_para{
+        margin-left: 10%;
+        width: 300px;
+        font-size: .8em;
+    }
+}
+@media screen and (max-width:570px){
+
+    .whoareWe_para2{
+        margin-left: 35%;
+        font-size: .7em;
+        width: 250px;
+    }
+    .whoareWe_head2{
+        margin-left: 35%;
+        font-size: 1.3em;
+    }
+    .whoareWe_head,.whychooseus_head{
+        /* margin-left: 40%; */
+        font-size: 1.3em;
+    }
+    .whoareWe_para,.whychooseus_para{
+        margin-left: 10%;
+        width: 250px;
+        font-size: .7em;
+    }
+}
+@media screen and (max-width:408px){
+
+    .whoareWe_para2{
+        margin-left: 28%;
+        font-size: .7em;
+        width: 230px;
+    }
+    .whoareWe_head2{
+        margin-left: 28%;
+        font-size: 1.2em;
+    }
+    .whoareWe_head,.whychooseus_head{
+        margin-left: 6%;
+        font-size: 1.2em;
+    }
+    .whoareWe_para,.whychooseus_para{
+        margin-left: 6%;
+        width: 250px;
+        font-size: .7em;
+    }
+}
+@media screen and (max-width:408px){
+
+    .whoareWe_para2{
+        margin-left: 10%;
+        font-size: .6em;
+        width: 80%;
+        text-align: end;
+    }
+    .whoareWe_head2{
+        text-align: end;
+        margin-left: 0px !important;
+        padding-right: 20px;
+        font-size: 1.1em;
+    }
+    .whoareWe_head,.whychooseus_head{
+        margin-left: 6%;
+        font-size: 1.1em;
+    }
+    .whoareWe_para,.whychooseus_para{
+        margin-left: 6%;
+        width: 80%;
+        font-size: .6em;
+    }
+}

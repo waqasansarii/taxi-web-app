@@ -1,0 +1,35 @@
+.main_point_div{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid 2px; */
+    width: fit-content;
+    /* text-align: center; */
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.point_span{
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: .8em;
+}
+.check{
+    color: rgb(86, 128, 23);
+}
+.point2,.point4{
+    margin-top: 10px;
+    
+}
+.points_div2{
+    margin-left: 20px;
+    
+}
+.safety_para{
+    margin: 0px auto;
+    /* border: solid 2px; */
+    width: fit-content;
+    text-align: center;
+    color: rgb(128, 177, 55);
+    margin-top: 30px;
+    font-size: 1em;
+    font-weight: bold;
+}

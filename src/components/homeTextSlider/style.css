@@ -1,0 +1,113 @@
+.main_taxis_div{
+    margin: 0px auto;
+    margin-top: 60px;
+    text-align: center;
+}
+.slider2{
+    width: 90%;
+    padding: 20px;
+    margin: 0px auto;
+    background-color: rgba(250, 248, 248, 0.795);
+    border-radius: 15px;
+}
+.taxt_head{
+    margin: 10px;
+    color: green;
+}
+.taxt_para{
+    margin-top: 30px;
+    color: gray;
+    
+}
+.taxt1_div,.taxt3_div{
+    width: 700px;
+    line-height: 1.7em;
+    text-align: center;
+    margin: 0px auto;
+    /* margin-left: 350px; */
+}
+.taxt2_div{
+    width: 750px;
+    line-height: 1.7em;
+    text-align: center;
+    margin: 0px auto;
+}
+
+@media screen and (max-width:890px){
+    .taxt1_div{
+        width: 500px;
+    }
+    .taxt3_div{
+        width: 400px;
+    }
+    .taxt2_div{
+        width: 550px;
+    }
+}
+@media screen and (max-width:630px){
+    .taxt1_div{
+        width: auto;
+        padding: 10px;
+    }
+    .taxt3_div{
+        width: auto;
+        padding: 10px;
+    }
+    .taxt2_div{
+        width: auto;
+        padding: 10px;
+
+    }
+    .taxt_head{
+        font-size: 1.7em;
+    }
+}
+@media screen and (max-width:508px){
+    .slider2{
+        width: 85%;
+    }
+}
+@media screen and (max-width:420px){
+    .taxt1_div{
+        width: auto;
+        padding: 10px;
+    }
+    .taxt3_div{
+        width: auto;
+        padding: 10px;
+    }
+    .taxt2_div{
+        width: auto;
+        padding: 10px;
+
+    }
+    .taxt_head{
+        font-size: 1.2em;
+    }
+    .taxt_para{
+        font-size: .8em;
+    }
+}
+@media screen and (max-width:345px){
+    .slider2{
+        width: 80%;
+        /* overflow: hidden; */
+    }
+    .taxt_head{
+        font-size: 1em;
+    }
+    .taxt_para{
+        font-size: .7em;
+        
+    }
+    .taxt1_div,.taxt2_div,.taxt3_div{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:315px){
+    .slider2{
+        width: 80%;
+        /* margin-left: 10px; */
+    }
+}

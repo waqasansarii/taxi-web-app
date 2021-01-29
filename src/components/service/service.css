@@ -1,0 +1,10 @@
+.main_service_div{
+    margin: 0px auto;
+    margin-top: 50px;
+    text-align: center;
+    /* border: solid 2px; */
+    width: fit-content;
+}
+.service_head{
+    color: rgb(135, 189, 53);
+}

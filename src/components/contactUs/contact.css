@@ -1,0 +1,32 @@
+.main_contact_div{
+    margin: 0px auto;
+    margin-top: 60px;
+    text-align: center;
+    /* border: solid 2px; */
+    width: 90%;
+    margin-bottom: 20px;
+}
+.contact_head{
+    text-align: center;
+
+}
+.conatact_ul{
+    margin: 0px auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    /* border: 2px solid; */
+    width: 80%;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+.conatact_ul>li{
+    /* border: 2px solid; */
+}
+.contact_icon{
+    font-size: 1.8em !important;
+    color: steelblue;
+}

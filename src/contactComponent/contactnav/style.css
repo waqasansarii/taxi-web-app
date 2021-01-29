@@ -1,0 +1,127 @@
+.main_contactnav_div{
+    margin: 0px auto;
+    margin-top: 60px;
+    text-align: center;
+    /* border: solid 2px; */
+    width: 90%;
+    margin-bottom: 20px;
+}
+.contactnav_head{
+    text-align: center;
+    font-size: 2em;
+
+}
+.conatactnav_ul{
+    margin: 0px auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    /* border: 2px solid; */
+    width: 80%;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+.conatactnav_ul>li{
+    /* border: 2px solid; */
+}
+.contactnav_icon{
+    font-size: 3em !important;
+    color: steelblue;
+}
+
+
+.otherContact_div{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+.othercontact_div1{
+    padding: 10px;
+}
+.othercontact_div2{
+    padding: 10px;
+}
+.cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
+    margin-left: 20px;
+    color: gray;
+}
+.cantact_3,.cantact_4{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cantact_4{
+    margin-left: 40px;
+}
+.cantact_2,.cantact_1{
+    margin-top: 20px;
+}
+.othercontactnav_icon{
+    color: steelblue;
+    font-size: 1.2em;
+}
+
+.apps_store_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.chatImage:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:530px){
+    .contactnav_icon{
+        font-size: 2em !important;
+    }
+    .cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
+        font-size: .8em;
+    }
+    .othercontactnav_icon{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:450px){
+    .contactnav_icon{
+        font-size: 2em !important;
+    }
+    .cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
+        font-size: .6em;
+        margin-left: 10px;
+    }
+    .othercontactnav_icon{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:355px){
+    .contactnav_icon{
+        font-size: 1.6em !important;
+    }
+    .cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
+        font-size: .54em;
+        margin-left: 5px;
+    }
+    .cantact_1,.cantact_2{
+        /* margin-left: -10px; */
+    }
+    .othercontactnav_icon{
+        font-size: .8em;
+    }
+}
+@media screen and (max-width:330px){
+    .contactnav_icon{
+        font-size: 1.6em !important;
+    }
+    .cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
+        font-size: .6em;
+        margin-left: 5px;
+    }
+    .cantact_3,.cantact_4{
+        margin-left: -0px;
+    }
+    .othercontactnav_icon{
+        font-size: .8em;
+    }
+}
