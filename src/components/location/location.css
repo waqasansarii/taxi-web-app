@@ -1,0 +1,50 @@
+.location_div{
+    margin: 0px auto;
+    margin-top: 50px;
+    /* text-align: center; */
+    /* border: solid 2px; */
+    width:  fit-content;
+
+}
+.input_and_map{
+
+    border: 1px solid grey;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 5px;
+}
+.input_and_map:hover{
+    cursor: pointer;
+}
+.location_link{
+    text-decoration: none;
+    color: black;
+}
+.location_input{
+    outline: none;
+    padding: 10px;
+    font-size: 1em;
+    margin: 0px auto;
+    border: none;
+    
+}
+.map_marker{
+    font-size: 1.5em !important;
+    margin-left: 20px;
+    /* padding-left:20px ; */
+    margin-top: 10px;
+    color: grey !important;
+}
+
+@media screen and (max-width:530px){
+    .input_and_map{
+        width: 280px;
+        height: 40px;
+    }
+    .map_marker{
+        margin-top: 9px;
+        font-size: 1.2em !important;
+    }
+}
