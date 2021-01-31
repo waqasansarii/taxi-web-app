@@ -14,15 +14,15 @@ export  const NavList = ({navOpen}) => {
                         <Link to='/' className='navlist_link'>Home</Link>
                     </li>
                     <li>
-                    <Link className='navlist_link'>Book Taxi</Link>
+                    <Link className='navlist_link' to='/location'>Book Taxi</Link>
 
                     </li>
                     <li>
-                    <Link className='navlist_link'>Travel Tips</Link>
+                    <Link className='navlist_link' to='/travel-tips'>Travel Tips</Link>
 
                     </li>
                     <li>
-                    <Link className='navlist_link'>FAQ</Link>
+                    <Link className='navlist_link' to='/faq'>FAQ</Link>
 
                     </li>
                     <li>
@@ -30,7 +30,7 @@ export  const NavList = ({navOpen}) => {
 
                     </li>
                     <li>
-                    <Link className='navlist_link'>T's & C's</Link>
+                    <Link className='navlist_link' to='/csAndTs'>T's & C's</Link>
 
                     </li>
                 </ul>

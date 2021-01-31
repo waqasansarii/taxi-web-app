@@ -17,7 +17,7 @@ const Contact = () => {
                         <FontAwesomeIcon className='contact_icon' icon={faFacebookMessenger} />
                     </li>
                     <li>
-                    <FontAwesomeIcon className='contact_icon' icon={faPhoneAlt} />
+                    <FontAwesomeIcon className='contact_icon_cl' icon={faPhoneAlt} />
 
                     </li>
                     <li>
@@ -33,6 +33,7 @@ const Contact = () => {
 
                     </li>
                 </ul>
+                <p className='foter'>Booking Online Easy but We Are Here!</p>
 
             </div>
         </div>

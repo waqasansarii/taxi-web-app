@@ -1,22 +1,35 @@
+.nav_container{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 0px 2px  4px rgb(209, 206, 206) ;
+}
 .main_nav_div{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     /* border: solid 2px; */
-    width: 95%;
+    width: auto;
+    /* border: 2px solid; */
+    padding: 10px;
+    
 }
 .logo_img{
-    width: 60px;
-    height: 40px;
+    width: 80px;
+    /* height: 40px; */
     border-radius: 30px;
     margin-left: 20px;
+}
+.logo_img:hover{
+    cursor: pointer;
 }
 .ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
     /* margin-right: 30px; */
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .ul>li{
     /* border: 3px solid; */
@@ -26,20 +39,31 @@
 .book{
     margin-left: 5px;
 }
+.book_btn_link{
+    text-decoration: none;
+    color: #0070C0;
+}
 .book_btn{
     width: 70px ;
     height: 30px;
-    border:  3px steelblue solid;
-    color: steelblue;
+    border:  1px #0070C0 solid;
+    text-decoration: none;
+    /* color: steelblue; */
+    color: #0070C0;
+    border-radius: 5px;
     font-weight: bold;
     background: transparent;
     outline: none;
     /* padding-bottom: 20px; */
     /* padding: 15px; */
 }
+.book_btn:hover{
+    cursor: pointer;
+}
 .bar,.user{
     font-size: 1.5em !important;
-    color: steelblue;
+    /* color: steelblue; */
+    color: #0070C0;
 }
 .nav_liii:hover{
     cursor: pointer;
@@ -51,11 +75,13 @@
     width: 300px;
     position: absolute;
     right: 70px;
+    top: 11%;
+    z-index: 1;
     /* background-color: rgb(184, 187, 184); */
     background-color: white;
     /* background-color: steelblue; */
-    box-shadow: 0px 0px 5px steelblue;
-    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(216, 219, 221);
+    border-radius: 7px;
     /* color: white; */
 }
 .navlist_ul{
@@ -80,6 +106,17 @@
         right: 30px;
         width: 250px;
     }
+    .logo_img{
+        width: 60px;
+    }
+    .bar,.user{
+        font-size: 1.2em !important;
+        margin-top: 5px;
+    }
+    .ul>li{
+        margin-left: 13px;
+    }
+    
 }
 
 /* .nav3{

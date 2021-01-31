@@ -1,0 +1,111 @@
+.main_CsAndTs_div{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.term_head{
+    color:#0070C0 ;
+}
+.term_para{
+    margin-top: 10px;
+    color: gray;
+    line-height: 1.6em;
+    font-size: 1em;
+    
+
+}
+.Responsibilities_head{
+    margin-top: 20px;
+    /* color:#0070C0 ; */
+
+}
+.Responsibilities_para1{
+    margin-top: 10px;
+    color: gray;
+    line-height: 1.6em;
+    font-size: 1em;
+    
+}
+.Responsibilities_para2{
+    margin-top: 10px;
+    color: gray;
+    line-height: 1.6em;
+    font-size: 1em;
+    
+}
+.Responsibilities_para3{
+    margin-top: 10px;
+    color: gray;
+    line-height: 1.6em;
+    font-size: 1em;
+    
+}
+.Responsibilities_para4{
+    margin-top: 10px;
+    color: gray;
+    line-height: 1.6em;
+    font-size: 1em;
+    
+}
+
+.Service_head{
+    margin-top: 15px;
+}
+.Service_para{
+    margin-top: 10px;
+    color: gray;
+    line-height: 1.6em;
+    font-size: 1em;
+   
+}
+.refunds_head{
+    margin-top:15px ;
+}
+.refunds_para1{
+    margin-top: 10px;
+    color: gray;
+    line-height: 1.6em;
+    font-size: 1em;
+   
+}
+.refunds_para2{
+    margin-top: 10px;
+    color: gray;
+    line-height: 1.6em;
+    font-size: 1em;
+   
+}
+
+.privacy_head{
+    margin-top: 15px;
+    color:#0070C0 ;
+
+}
+.privacy_para1{
+    margin-top: 10px;
+    color: gray;
+    line-height: 1.6em;
+    font-size: 1em;
+   
+}
+.privacy_para2{
+    margin-top: 10px;
+    color: gray;
+    line-height: 1.6em;
+    font-size: 1em;
+    margin-bottom: 90px;
+   
+}
+
+@media screen and (max-width:415px){
+    .privacy_para1,.privacy_para2,.refunds_para1,.refunds_para2,.Responsibilities_para1,
+    .Responsibilities_para2,.Responsibilities_para3,.Responsibilities_para4,.Service_para,.term_para{
+         font-size: .8em;
+    }
+    .privacy_head,.term_head{
+        font-size: 1.1em;
+    }
+    .refunds_head,.Responsibilities_head,.Service_head{
+        font-size: 1em;
+    }
+}

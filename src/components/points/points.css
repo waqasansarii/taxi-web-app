@@ -10,10 +10,11 @@
 .point_span{
     margin-left: 8px;
     font-weight: bold;
-    font-size: .8em;
+    font-size: 1em;
 }
 .check{
     color: rgb(86, 128, 23);
+    font-size: 1.2em;
 }
 .point2,.point4{
     margin-top: 10px;
@@ -30,6 +31,39 @@
     text-align: center;
     color: rgb(128, 177, 55);
     margin-top: 30px;
-    font-size: 1em;
+    font-size: 1.5em !important;
     font-weight: bold;
+}
+
+@media screen and (max-width:530px){
+    .safety_para{
+        font-size: 1.2em !important;
+    }
+}
+
+@media screen and (max-width:420px){
+    .safety_para{
+        font-size: 1em !important;
+    }
+}
+@media screen and (max-width:350px){
+    .safety_para{
+        font-size: .9em !important;
+    }
+}
+@media screen and (max-width:375px){
+    .points_div1{
+        /* border:  2px solid; */
+        margin-left: -15px;
+    }
+    .points_div2{
+        margin-left: 18px;
+    }
+    .check{
+        font-size: 1em;
+    }
+    .point_span{
+        font-size: .8em;
+    }
+    
 }

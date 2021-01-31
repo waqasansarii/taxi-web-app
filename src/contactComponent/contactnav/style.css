@@ -18,7 +18,8 @@
     justify-content: space-around;
     list-style: none;
     /* border: 2px solid; */
-    width: 80%;
+    width: 60%;
+    padding: 20px;
     /* text-align: center; */
     /* align-items: center; */
     /* justify-content: center; */
@@ -28,8 +29,9 @@
     /* border: 2px solid; */
 }
 .contactnav_icon{
-    font-size: 3em !important;
-    color: steelblue;
+    font-size: 2.5em !important;
+    /* color: steelblue; */
+    color: #0070C0;
 }
 
 
@@ -59,7 +61,8 @@
     margin-top: 20px;
 }
 .othercontactnav_icon{
-    color: steelblue;
+    /* color: rgb(16, 19, 22); */
+    color: #0070C0;
     font-size: 1.2em;
 }
 
@@ -71,16 +74,28 @@
 .chatImage:hover{
     cursor: pointer;
 }
+.conatactnav_ul>li{
+    /* border: solid 2px; */
+    padding: 15px;
+    box-shadow: 0px 0px 5px rgb(184, 196, 202);
+    border-radius: 10px;
+}
 
 @media screen and (max-width:530px){
     .contactnav_icon{
         font-size: 2em !important;
+    }
+    .conatactnav_ul>li{
+        padding: 10px !important;
     }
     .cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
         font-size: .8em;
     }
     .othercontactnav_icon{
         font-size: 1em;
+    }
+    .conatactnav_ul{
+        width: 80%;
     }
 }
 @media screen and (max-width:450px){
@@ -100,14 +115,20 @@
         font-size: 1.6em !important;
     }
     .cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
-        font-size: .54em;
+        font-size: .7em;
         margin-left: 5px;
     }
     .cantact_1,.cantact_2{
-        /* margin-left: -10px; */
+        margin-left: -8px;
+    }
+    .cantact_3,.cantact_4{
+        margin-left: 3px;
     }
     .othercontactnav_icon{
         font-size: .8em;
+    }
+    .conatactnav_ul{
+        width: 90%;
     }
 }
 @media screen and (max-width:330px){
@@ -115,7 +136,7 @@
         font-size: 1.6em !important;
     }
     .cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
-        font-size: .6em;
+        font-size: .64em;
         margin-left: 5px;
     }
     .cantact_3,.cantact_4{

@@ -1,0 +1,118 @@
+.location_list_div{
+    margin: 0px auto;
+    margin-top: 10px;
+    width: 670px;
+    padding: 2px;
+    border-bottom : 1px gray solid;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.compas{
+    font-size: 1.5em;
+    color: steelblue;
+    margin-top: 10px;
+}
+.location_para{
+    font-weight: bold;
+}
+.location_para2{
+    margin-top: 4px;
+    font-size: .8em;
+    color: gray;
+}
+.list_container{
+    /* border: 2px solid; */
+    margin-top: 30px;
+    width: fit-content;
+    margin: 0px auto;
+    max-height: 200px;
+    overflow-y: scroll;
+    padding-left: 15px;
+    padding-right: 20px;
+    box-shadow: 0px 0px 5px rgb(173, 168, 168);
+    border-radius: 8px;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.list_container:hover{
+    cursor: pointer;
+}
+.list_container::-webkit-scrollbar{
+    width: 5px;
+}
+.list_container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(202, 199, 199); 
+    border-radius: 10px;
+  }
+.list_container::-webkit-scrollbar-thumb {
+    background: rgb(170, 167, 167); 
+    border-radius: 10px;
+  }
+
+  .foter2{
+      position: absolute;
+      bottom: 10px;
+      color: gray;
+      font-size: .9em;
+      text-align: center;
+      margin: 0px auto;
+      left: 40%;
+
+  }
+
+  @media screen and (max-width:800px){
+      .foter2{
+        left: 32%;
+      }
+  }
+
+
+  @media screen and (max-width:740px){
+      .location_list_div{
+          width:500px ;
+      }
+  }
+@media screen and (max-width:560px){
+    .location_list_div{
+        width:360px ;
+    }
+    .location_para{
+        font-size: .9em;
+    }
+    .compas{
+        font-size: 1.2em;
+    }
+    .foter2{
+        left: 25%;
+      }
+}
+@media screen and (max-width:430px){
+    .location_list_div{
+        width:250px ;
+    }
+    .location_para{
+        font-size: .9em;
+    }
+    .compas{
+        font-size: 1em;
+    }
+    .foter2{
+        left: 14%;
+      }
+}
+@media screen and (max-width:350px){
+    .location_list_div{
+        width:190px ;
+    }
+    .foter2{
+        left: 12%;
+      }
+    .location_para{
+        font-size: .8em;
+    }
+    .compas{
+        font-size: 1em;
+    }
+}

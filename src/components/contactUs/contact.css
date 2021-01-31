@@ -25,8 +25,24 @@
 }
 .conatact_ul>li{
     /* border: 2px solid; */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(149, 151, 153);
+}
+.contact_icon_cl{
+    font-size: 1.6em;
+    /* color: steelblue; */
+    color: #0070C0;
+
 }
 .contact_icon{
     font-size: 1.8em !important;
-    color: steelblue;
+    /* color: steelblue; */
+    color: #0070C0;
+}
+.foter{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: gray;
 }

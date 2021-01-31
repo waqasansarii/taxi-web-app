@@ -1,0 +1,107 @@
+.searchinp_div{
+    border: 2px solid gray;
+    width: fit-content;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7px;
+}
+.search_in1{
+    height: 30px;
+    width: 600px;
+    padding: 9px;
+    font-size: 1em;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+}
+.map_marker2{
+    font-size: 1.5em;
+    color: steelblue;
+}
+.arrow2{
+    margin-left: 10px;
+    font-size: 1.5em;
+    margin-top: 9px;
+    color: steelblue;
+}
+.searchinp_div2{
+    border: 2px solid steelblue;
+    width: fit-content;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7px;
+}
+.search_in2{
+    height: 30px;
+    width: 600px;
+    padding: 9px;
+    font-size: 1em;
+    margin-left: 8px;
+    border: none;
+    outline: none;
+}
+.map_marker3{
+    font-size: 1.5em;
+    color: gray;
+}
+.arrow3{
+    margin-left: 10px;
+    font-size: 1.5em;
+    margin-top: 9px;
+    color: gray;
+}
+.arrow3:hover,.arrow2:hover{
+   cursor: pointer;
+}
+
+.show_price_div{
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.show_price_link{
+    text-decoration: none;
+    color: white;
+    background-color: steelblue;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.show_price_link:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:740px){
+    .search_in1,.search_in2{
+        width: 440px;
+    }
+}
+@media screen and (max-width:560px){
+    .search_in1,.search_in2{
+        width: 300px;
+    }
+    .map_marker2,.map_marker3,.arrow2,.arrow3{
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width:430px){
+    .search_in1,.search_in2{
+        width: 200px;
+    }
+    .map_marker2,.map_marker3,.arrow2,.arrow3{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:350px){
+    .search_in1,.search_in2{
+        width: 150px;
+        font-size: .9em;
+    }
+    .map_marker2,.map_marker3,.arrow2,.arrow3{
+        font-size: 1em;
+    }
+}

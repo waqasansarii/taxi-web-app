@@ -1,18 +1,26 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 // import './points.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faCheck ,faMoneyCheckAlt} from '@fortawesome/free-solid-svg-icons'
+import {  faMoneyCheckAlt} from '@fortawesome/free-solid-svg-icons'
 import {  faClock,faStar,faCheckSquare} from '@fortawesome/free-regular-svg-icons'
 import './style.css'
 
 
 const Approach = () => {
+    useEffect(()=>{
+        AOS.init({
+            duration: 1000
+        })
+
+    },[])
     return(
         <div className='point_container2'>
             <div>
                 <h1 className='point_head'>Our Client First Approach</h1>
             </div>
-            <div className='main_point2_div'>
+            <div className='main_point2_div' data-aos="zoom-in" data-aos-easing="ease-in-out">
                 <div className='points2_div1'>
                     <div className='point1_2'>
                         <FontAwesomeIcon className='check2' icon={faMoneyCheckAlt} />

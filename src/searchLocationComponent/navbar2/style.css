@@ -1,0 +1,28 @@
+.arrow_icon{
+    font-size: 1.6em;
+}
+.nav2_link{
+    text-decoration: none;
+    color: steelblue;
+    display: inline-block;
+    /* border: 2px steelblue solid; */
+    padding: 8px;
+    width: 25px;
+    border-radius: 30px;
+     margin-top: 15px;
+     margin-left: 40px;
+     box-shadow: 0px 0px 5px rgb(167, 165, 165);
+}
+
+@media screen and (max-width:430px){
+    .arrow_icon{
+        font-size: 1em;
+        margin-left: 2px;
+    }
+    .nav2_link{
+        width: 20px;
+        padding: 5px;
+        margin-left: 20px;
+        
+    }
+}

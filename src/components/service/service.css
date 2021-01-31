@@ -8,3 +8,23 @@
 .service_head{
     color: rgb(135, 189, 53);
 }
+.head_decs{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:530px){
+    .service_head{
+        font-size: 1.5em;
+    }
+    .head_decs{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:372px){
+    .service_head{
+        font-size: 1.2em;
+    }
+    .head_decs{
+        font-size: .8em;
+    }
+}
