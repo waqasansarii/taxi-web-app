@@ -74,8 +74,8 @@
     /* border:  2px solid; */
     width: 300px;
     position: absolute;
-    right: 70px;
-    top: 11%;
+    right: 30px;
+    top: 70% !important;
     z-index: 1;
     /* background-color: rgb(184, 187, 184); */
     background-color: white;
@@ -105,6 +105,9 @@
     .navlist_div{
         right: 30px;
         width: 250px;
+        top: 90% !important;
+        right: 20px;
+
     }
     .logo_img{
         width: 60px;

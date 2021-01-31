@@ -8,12 +8,15 @@
     text-align: center;
     color: gray;
     margin-top: 20px;
-    font-size: .9em;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 .faq_ul{
     /* display: flex; */
     list-style: none;
     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
