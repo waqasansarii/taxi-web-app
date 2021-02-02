@@ -5,11 +5,11 @@
     width: fit-content;
     /* text-align: center; */
     margin: 0px auto;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .point_head{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .point_span2{
     margin-left: 8px;
@@ -20,7 +20,7 @@
     margin-left: 35px;
     margin-top: 5px;
     font-size: .9em;
-    font-style: oblique;
+    /* font-style: oblique; */
     color: grey;
 }
 .check2{
@@ -51,7 +51,7 @@
     .main_point2_div{
         flex-direction: column;
         padding: 20px;
-        margin-top: 50px;
+        margin-top: 10px;
     }
     .points2_div2{
         margin-left: 0px;

@@ -10,7 +10,8 @@
 }
 .compas{
     font-size: 1.5em;
-    color: steelblue;
+    /* color: rgb(42, 51, 58); */
+    color: #0070C0;
     margin-top: 10px;
 }
 .location_para{
@@ -30,7 +31,7 @@
     overflow-y: scroll;
     padding-left: 15px;
     padding-right: 20px;
-    box-shadow: 0px 0px 5px rgb(173, 168, 168);
+    /* box-shadow: 0px 0px 5px rgb(173, 168, 168); */
     border-radius: 8px;
     height: fit-content;
     padding-bottom: 10px;
@@ -90,7 +91,10 @@
 }
 @media screen and (max-width:430px){
     .location_list_div{
-        width:250px ;
+        width:290px ;
+    }
+    .list_container{
+        padding-left: 5px !important;
     }
     .location_para{
         font-size: .9em;
@@ -104,7 +108,8 @@
 }
 @media screen and (max-width:350px){
     .location_list_div{
-        width:190px ;
+        width:230px ;
+        /* margin: 0px; */
     }
     .foter2{
         left: 12%;

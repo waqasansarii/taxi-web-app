@@ -36,14 +36,14 @@ const TaxiSlider = () => {
                         <div className='taxi_card1'>
                             <img className='card0' src={car1} alt="" />
                             <p className='taxi_decs'>Taxi</p>
-                            <p className='taxi_price'>4 Pax</p>
+                            <p className='taxi_pax'>4 Pax</p>
                         </div>
                     </div>
                     <div>
                         <div className='taxi_card1'>
                             <img className='card2' src={car2} alt="" />
                             <p className='taxi_decs'>VIP & Exec</p>
-                            <p className='taxi_price'>4 Pax</p>
+                            <p className='taxi_pax'>4 Pax</p>
                         </div>
                         {/* <h3>2</h3> */}
                     </div>
@@ -52,7 +52,7 @@ const TaxiSlider = () => {
                         <div className='taxi_card1'>
                             <img className='card1' src={car3} alt="" />
                             <p className='taxi_decs'>Small Bus</p>
-                            <p className='taxi_price'>4 Pax</p>
+                            <p className='taxi_pax'>4 Pax</p>
                         </div>
                     </div>
                     <div>
@@ -60,7 +60,7 @@ const TaxiSlider = () => {
                         <div className='taxi_card1'>
                             <img className='card1' src={car4} alt="" />
                             <p className='taxi_decs'>Family Taxi</p>
-                            <p className='taxi_price'>4 Pax</p>
+                            <p className='taxi_pax'>4 Pax</p>
                         </div>
                     </div>
                     <div>
@@ -68,7 +68,7 @@ const TaxiSlider = () => {
                         <div className='taxi_card1'>
                             <img className='card1' src={car5} alt="" />
                             <p className='taxi_decs'>Coach</p>
-                            <p className='taxi_price'>4 Pax</p>
+                            <p className='taxi_pax'>4 Pax</p>
                         </div>
                     </div>
                     <div>
@@ -76,7 +76,7 @@ const TaxiSlider = () => {
                         <div className='taxi_card1'>
                             <img className='card6' src={car6} alt="" />
                             <p className='taxi_decs'>Mini Bus</p>
-                            <p className='taxi_price'>4 Pax</p>
+                            <p className='taxi_pax'>4 Pax</p>
                         </div>
                     </div>
                 </Slider>

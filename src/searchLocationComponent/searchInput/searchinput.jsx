@@ -21,20 +21,23 @@ const SearchInput = () => {
     let [hide , setHide] = useState(false)
     // SECOND LOCATION LIST 
     let [hide2 , setHide2] = useState(false)
+    let [hide3 , setHide3] = useState(false)
 
     // FISRT INPUT FILED FUNCTION
 
     const handleSearch = (e) => {
-        console.log(e.target.value)
+        // console.log(e.target.value)
         setVal(e.target.value)
         setHide(true)
+        setHide2(false)
     }
     // SECOND INPUT FILED FUNCTION
 
     const handleSearch2 = (e) => {
-        console.log(e.target.value)
+        // console.log(e.target.value)
         setVal2(e.target.value)
         setHide2(true)
+        setHide(false)
     }
 
 
@@ -75,8 +78,8 @@ const SearchInput = () => {
     const handleSelect2 = (e) => {
         setVal2(e.city)
         setHide2(false)
-
 }
+
     return (
         <div>
 
@@ -88,7 +91,7 @@ const SearchInput = () => {
                 <div className='searchinp_div'>
 
                     <FontAwesomeIcon className='map_marker2' icon={faMapMarkerAlt} />
-                    <input value={val} onChange={(e) => handleSearch(e)} className='search_in1' placeholder='Enter Your Pickup Location' type="text" name="" id="" />
+                    <input value={val} onChange={(e) => handleSearch(e)} className='search_in1' placeholder='Where From?' type="text" name="" id="" />
                     {val ?
                         <FontAwesomeIcon onClick={handleCancle} className='arrow2' icon={faTimes} />
                         :
@@ -99,7 +102,7 @@ const SearchInput = () => {
                 <div className='searchinp_div2'>
 
                     <FontAwesomeIcon className='map_marker3' icon={faMapMarkerAlt} />
-                    <input value={val2} onChange={(e) => handleSearch2(e)} className='search_in2' placeholder='Enter Your Pickup Location' type="text" name="" id="" />
+                    <input value={val2} onChange={(e) => handleSearch2(e)} className='search_in2' placeholder='Where To?' type="text" name="" id="" />
                     {val2 ?
                         <FontAwesomeIcon onClick={handleCancle2} className='arrow2' icon={faTimes} />
                         :
@@ -183,7 +186,7 @@ const SearchInput = () => {
 
             </div>
             {/* <LocationList loc={val} /> */}
-            <p className='foter2'>Booking Online Easy but We Are Here!</p>
+            {/* <p className='foter2'>Booking Online Easy but We Are Here!</p> */}
 
         </div>
     )

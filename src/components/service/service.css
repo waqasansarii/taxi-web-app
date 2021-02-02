@@ -1,12 +1,13 @@
 .main_service_div{
     margin: 0px auto;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     /* border: solid 2px; */
     width: fit-content;
 }
 .service_head{
-    color: rgb(135, 189, 53);
+    /* color: rgb(135, 189, 53); */
+    color: #39B54A;
 }
 .head_decs{
     margin-top: 10px;

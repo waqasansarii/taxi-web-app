@@ -23,7 +23,7 @@ const ContactNav = () => {
         <div className='contactnav_container'>
             <div className='main_contactnav_div'>
                 <h2 className='contactnav_head'>Contact Us</h2>
-                <h3 style={{ textAlign: 'center', marginTop: '20px' }}>Via Your Favourite Apps</h3>
+                <h4 style={{ textAlign: 'center', marginTop: '20px' }}>Via Your Favourite Apps</h4>
                 <ul className='conatactnav_ul'>
                     <li>
                         <FontAwesomeIcon className='contactnav_icon' icon={faFacebookMessenger} />

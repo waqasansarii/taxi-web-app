@@ -1,5 +1,5 @@
 .travelTips_cards_div{
-    margin-top: 30px;
+    margin-top: 0px;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -168,9 +168,15 @@
         width: 350px;
     }
 }
+@media screen and (max-width:768px){
+    .travel_card1{
+        width: 500px;
+    }
+
+}
 @media screen and (max-width:415px){
     .travel_card1{
-        width: 280px;
+        width: 350px;
 
     }
     .travel_para2{
@@ -197,9 +203,22 @@
         font-size: .9em;
     }
 }
+@media screen and (max-width:360px){
+    .travel_card1{
+        width: 300px;
+    }
+
+}
 @media screen and (max-width:345px){
     .travel_card1{
         width: 250px;
+    }
+
+}
+
+@media screen and (max-width:320px){
+    .travel_card1{
+        width: 270px;
     }
 
 }

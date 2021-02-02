@@ -12,9 +12,11 @@ const SelectTaxi = () => {
 
     const [showText, setShowText] = useState(false)
 
-    const OpenText = () => {
+    const OpenText = (data) => {
         setShowText(!showText)
-        console.log(showText)
+        // console.log(data2)
+        
+
     }
 
     return (
@@ -56,7 +58,7 @@ const SelectTaxi = () => {
 
                                     </div>
                                     <div className='bootme_btn_div'>
-                                        <FontAwesomeIcon className={showText ? 'factorial_icon2' : 'factorial_icon'} onClick={OpenText} icon={faInfoCircle} />
+                                        <FontAwesomeIcon className={showText ? 'factorial_icon2' : 'factorial_icon'} onClick={()=>OpenText(val)} icon={faInfoCircle} />
                                         <Link className='book_me_btn' to='/select-extra'>Book Me</Link>
                                         {/* <button>Book Me</button> */}
                                     </div>

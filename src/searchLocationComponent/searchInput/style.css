@@ -1,5 +1,5 @@
 .searchinp_div{
-    border: 2px solid gray;
+    border: 1px solid gray;
     width: fit-content;
     margin: 0px auto;
     margin-top: 50px;
@@ -15,22 +15,23 @@
     margin-left: 8px;
     border: none;
     outline: none;
+    color: #5fa7db;
 }
 .map_marker2{
     font-size: 1.5em;
-    color: steelblue;
+    color: #0070C0;
 }
 .arrow2{
     margin-left: 10px;
     font-size: 1.5em;
     margin-top: 9px;
-    color: steelblue;
+    color: #0070C0;
 }
 .searchinp_div2{
-    border: 2px solid steelblue;
+    border: 1px solid #0070C0;
     width: fit-content;
     margin: 0px auto;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 7px;
@@ -43,6 +44,7 @@
     margin-left: 8px;
     border: none;
     outline: none;
+    color: #5fa7db;
 }
 .map_marker3{
     font-size: 1.5em;
@@ -66,7 +68,7 @@
 .show_price_link{
     text-decoration: none;
     color: white;
-    background-color: steelblue;
+    background-color: #0070C0;
     padding: 10px;
     font-weight: bold;
     border-radius: 8px;
@@ -90,7 +92,7 @@
 }
 @media screen and (max-width:430px){
     .search_in1,.search_in2{
-        width: 200px;
+        width: 240px;
     }
     .map_marker2,.map_marker3,.arrow2,.arrow3{
         font-size: 1em;
@@ -98,7 +100,7 @@
 }
 @media screen and (max-width:350px){
     .search_in1,.search_in2{
-        width: 150px;
+        width: 180px;
         font-size: .9em;
     }
     .map_marker2,.map_marker3,.arrow2,.arrow3{

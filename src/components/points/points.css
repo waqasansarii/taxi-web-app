@@ -29,9 +29,10 @@
     /* border: solid 2px; */
     width: fit-content;
     text-align: center;
-    color: rgb(128, 177, 55);
-    margin-top: 30px;
-    font-size: 1.5em !important;
+    /* color: rgb(128, 177, 55); */
+    color: #39B54A;
+    margin-top: 5px;
+    font-size: 1.2em !important;
     font-weight: bold;
 }
 

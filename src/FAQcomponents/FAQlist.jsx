@@ -59,9 +59,9 @@ export const FaqList = () => {
                 <h2 className='faq_head'>FAQs</h2>
                 <p className='faq_para'>See Our FAQs or Contact Us</p>
                 <ul className='faq_ul'>
-                    <li>
+                    <li onClick={handleShow}>
                         <p>Understanding the price quote</p>
-                        <FontAwesomeIcon onClick={handleShow} className='more_icon' icon={faCaretDown} />
+                        <FontAwesomeIcon  className='more_icon' icon={faCaretDown} />
                     </li>
                     {show ?
 
@@ -74,9 +74,9 @@ export const FaqList = () => {
                         </div>
                         : null
                     }
-                    <li>
+                    <li onClick={handleShow2}>
                         <p>Understanding the price quote</p>
-                        <FontAwesomeIcon onClick={handleShow2} className='more_icon' icon={faCaretDown} />
+                        <FontAwesomeIcon  className='more_icon' icon={faCaretDown} />
                     </li>
                     {show2 ?
 
@@ -89,9 +89,9 @@ export const FaqList = () => {
                         </div>
                         : null
                     }
-                    <li>
+                    <li onClick={handleShow3}>
                         <p>ow To Book A Transfer</p>
-                        <FontAwesomeIcon onClick={handleShow3} className='more_icon' icon={faCaretDown} />
+                        <FontAwesomeIcon  className='more_icon' icon={faCaretDown} />
                     </li>
                     {show3 ?
 
@@ -104,9 +104,9 @@ export const FaqList = () => {
                         </div>
                         : null
                     }
-                    <li>
+                    <li onClick={handleShow4}>
                         <p>Was My Booking Successful?</p>
-                        <FontAwesomeIcon onClick={handleShow4} className='more_icon' icon={faCaretDown} />
+                        <FontAwesomeIcon  className='more_icon' icon={faCaretDown} />
                     </li>
                     {show4 ?
 
@@ -119,9 +119,9 @@ export const FaqList = () => {
                         </div>
                         : null
                     }
-                    <li>
+                    <li onClick={handleShow5}>
                         <p>How Can I Pay For My Transfer</p>
-                        <FontAwesomeIcon onClick={handleShow5} className='more_icon' icon={faCaretDown} />
+                        <FontAwesomeIcon  className='more_icon' icon={faCaretDown} />
                     </li>
                     {show5 ?
 
@@ -134,9 +134,9 @@ export const FaqList = () => {
                         </div>
                         : null
                     }
-                    <li>
+                    <li onClick={handleShow6}>
                         <p>Payment Currency</p>
-                        <FontAwesomeIcon onClick={handleShow6} className='more_icon' icon={faCaretDown} />
+                        <FontAwesomeIcon  className='more_icon' icon={faCaretDown} />
                     </li>
                     {show6 ?
 
@@ -149,9 +149,9 @@ export const FaqList = () => {
                         </div>
                         : null
                     }
-                    <li>
+                    <li onClick={handleShow7}>
                         <p>What Is The car Capacity</p>
-                        <FontAwesomeIcon onClick={handleShow7} className='more_icon' icon={faCaretDown} />
+                        <FontAwesomeIcon  className='more_icon' icon={faCaretDown} />
                     </li>
                     {show7 ?
 
@@ -164,9 +164,9 @@ export const FaqList = () => {
                         </div>
                         : null
                     }
-                    <li>
+                    <li onClick={handleShow8}>
                         <p>How Do I find My Driver</p>
-                        <FontAwesomeIcon onClick={handleShow8} className='more_icon' icon={faCaretDown} />
+                        <FontAwesomeIcon  className='more_icon' icon={faCaretDown} />
                     </li>
                     {show8 ?
 
@@ -179,9 +179,9 @@ export const FaqList = () => {
                         </div>
                         : null
                     }
-                    <li>
+                    <li onClick={handleShow9}>
                         <p>Can I make Changes To My Booking</p>
-                        <FontAwesomeIcon onClick={handleShow9} className='more_icon' icon={faCaretDown} />
+                        <FontAwesomeIcon  className='more_icon' icon={faCaretDown} />
                     </li>
                     {show9 ?
 
@@ -194,9 +194,9 @@ export const FaqList = () => {
                         </div>
                         : null
                     }
-                    <li>
+                    <li onClick={handleShow10}>
                         <p>Can I Cancel My Order</p>
-                        <FontAwesomeIcon onClick={handleShow10} className='more_icon' icon={faCaretDown} />
+                        <FontAwesomeIcon  className='more_icon' icon={faCaretDown} />
                     </li>
                     {show10 ?
 
@@ -209,9 +209,9 @@ export const FaqList = () => {
                         </div>
                         : null
                     }
-                    <li>
+                    <li onClick={handleShow11}>
                         <p>Can I Get A Refunds</p>
-                        <FontAwesomeIcon onClick={handleShow11} className='more_icon' icon={faCaretDown} />
+                        <FontAwesomeIcon  className='more_icon' icon={faCaretDown} />
                     </li>
                     {show11 ?
 

@@ -8,12 +8,12 @@
 }
 .contactnav_head{
     text-align: center;
-    font-size: 2em;
+    font-size: 1.4em;
 
 }
 .conatactnav_ul{
     margin: 0px auto;
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -100,14 +100,34 @@
 }
 @media screen and (max-width:450px){
     .contactnav_icon{
-        font-size: 2em !important;
+        font-size: 1.7em !important;
     }
     .cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
-        font-size: .6em;
+        /* border: 2px solid; */
+        font-size: .8em;
         margin-left: 10px;
+    }
+    .othercontact_div1,.othercontact_div2{
+        /* border: solid 2px; */
+        padding: 0px;
+    }
+    .cantact_3{
+        margin-left: 0px !important;
+    }
+    .cantact_4{
+        margin-left: 16px;
     }
     .othercontactnav_icon{
         font-size: 1em;
+    }
+    .conatactnav_ul>li{
+        padding: 8px !important;
+    }
+}
+@media screen and (max-width:360px){
+    .cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
+        font-size: .7em;
+        margin-left: 2px;
     }
 }
 @media screen and (max-width:355px){

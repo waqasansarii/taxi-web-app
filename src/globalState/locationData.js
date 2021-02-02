@@ -13,11 +13,11 @@ export const Location_state= {
         {city:'Alligator Pond',desc:'Saint Ann, Jamaica',id:'4'},
     ],
     taxiData:[
-        {car:car1,name:'Standar Taxi',id:'1',price:'10'},
-        {car:car2,name:'VIP & EXEC',id:'2',price:'10'},
-        {car:car3,name:'abs',id:'3',price:'10'},
-        {car:car4,name:'dsf',id:'4',price:'10'},
-        {car:car5,name:'dfsd',id:'5',price:'10'},
-        {car:car6,name:'dfdsf',id:'6',price:'10'},
+        {car:car1,name:'Standar Taxi',id:'1',price:'10',bool:false},
+        {car:car2,name:'VIP & EXEC',id:'2',price:'10',bool:false},
+        {car:car3,name:'abs',id:'3',price:'10',bool:false},
+        {car:car4,name:'dsf',id:'4',price:'10',bool:false},
+        {car:car5,name:'dfsd',id:'5',price:'10',bool:false},
+        {car:car6,name:'dfdsf',id:'6',price:'10',bool:false},
     ]
 }
