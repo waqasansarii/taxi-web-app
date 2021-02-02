@@ -38,7 +38,7 @@ const SelectExtra = () => {
                                 <div className='btnAndCard_div'>
                                     <div className='select_taxi_card_div' key={val.id}>
                                         <div className='imgAndName_div'>
-                                            <img className='extra_img' src={rose} alt="" />
+                                            <img className='extra_img' src={rose} alt="rose" />
 
                                             <div className='name_div'>
 
@@ -58,7 +58,7 @@ const SelectExtra = () => {
                                         </div>
                                         <div className='taxi_price'>
                                             {showText ?
-                                                <img src={label} className='taxi_tag' />
+                                                <img src={label} className='taxi_tag' alt=''/>
 
                                                 :
 

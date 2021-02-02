@@ -47,7 +47,7 @@ const SelectTaxi = () => {
                                             </div>
                                         </div>
                                         <div className='taxi_price'>
-                                            <img src={label} className='taxi_tag' />
+                                            <img src={label} className='taxi_tag' alt='' />
                                             {/* <FontAwesomeIcon className='taxi_dollar' icon={faDollarSign} /> */}
                                             <span className='taxi_dollar'>${val.price}</span>
                                         </div>
