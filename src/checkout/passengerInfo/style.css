@@ -1,0 +1,85 @@
+.passenger_div{
+    padding-left: 20px;
+    margin-top: 15px;
+    padding-right: 30px;
+}
+.passenger_para{
+    margin-top: 5px;
+    color: gray;
+    font-size: .9em;
+}
+.passenger_inp_div1{
+    display: flex;
+    flex-direction: column;
+}
+.inps1{
+    padding: 8px;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 8px;
+    height: 30px;
+    outline: none;
+    border: 1px gray solid;
+}
+.passenger_inp_div2{
+    margin-top: 15px;
+    display: flex;
+}
+.group_img{
+    /* margin-top: 15px; */
+}
+.inps2{
+    width: 90%;
+    margin-left: 6px;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    height: 35px;
+
+}
+.num_inp{
+    width: 40px;
+    height: 35px;
+    margin-left: 7px;
+    border-radius: 5px;
+padding: 5px;
+border: 1px solid gray;
+
+}
+
+@media screen and (max-width:350px){
+    .passenger_div{
+        padding: 8px;
+    }
+    .inps1,.inps2,.num_inp{
+        height: 27px;
+    }
+    .passenger_head{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:323px){
+    .passenger_div{
+        padding: 8px;
+    }
+    .inps1{
+        height: 27px;
+        width: 88%;
+    }
+    .num_inp{
+        width: 30px;
+        margin-left: 3px;
+
+    }
+    .passenger_head{
+        font-size: 1em;
+    }
+    .group_img{
+        width: 50px;
+    }
+    .inps2{
+        margin-left: 3px;
+        width: 58%;
+    }
+}

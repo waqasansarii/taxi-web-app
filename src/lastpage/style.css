@@ -1,0 +1,91 @@
+.arrow5_icon{
+    font-size: 1.6em;
+}
+.nav5_link{
+    text-decoration: none;
+    color: steelblue;
+    display: inline-block;
+    /* border: 2px steelblue solid; */
+    padding: 8px;
+    width: 25px;
+    border-radius: 30px;
+     margin-top: 15px;
+     margin-left: 40px;
+     box-shadow: 0px 0px 5px rgb(167, 165, 165);
+     background-color: white;
+}
+.lastpage_conatiner{
+    padding-right:20px ;
+    padding-left: 20px;
+}
+.thankyou_head{
+    color: #39B54A;
+    margin-top: 5px;
+
+}
+.thankyou_para{
+    /* color: gray; */
+    margin-top: 5px;
+    font-weight: bold;
+}
+.last_hr{
+    width: 620px;
+    margin: 0px auto;
+    margin-top: 70px;
+}
+.recomend_para{
+    /* border: 2px steelblue solid; */
+    width: 620px;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: bold;
+color: gray;
+    margin-top: 50px;
+    font-size: .9em;
+}
+.app_para{
+    text-align: center;
+    margin-top: 40px;
+}
+.stores_div{
+    text-align: center;
+    margin-top: 40px;
+}
+.stores_img{
+    width: 70px;
+    margin-right: 30px;
+}
+.stores2_img{
+    width: 70px;
+    margin-left: 30px;
+}
+.goto_home{
+    text-decoration: none;
+    padding: 10px;
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}
+@media screen and (max-width:650px){
+    .recomend_para,.last_hr{
+        width: 500px;
+    }
+}
+@media screen and (max-width:650px){
+    .recomend_para,.last_hr{
+        width: auto;
+    }
+}
+@media screen and (max-width:430px){
+    .arrow5_icon{
+        font-size: 1em;
+        margin-left: 2px;
+    }
+    .nav5_link{
+        width: 20px;
+        padding: 5px;
+        margin-left: 20px;
+        
+    }
+}

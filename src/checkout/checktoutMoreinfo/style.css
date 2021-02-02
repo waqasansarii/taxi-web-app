@@ -1,0 +1,19 @@
+.date_price_div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.price_para2{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(10, 104, 182);
+}
+.date,.time{
+    margin-left: 6px;
+    font-size: .8em;
+    font-weight: bold;
+}
+.time{
+    color: rgb(15, 107, 182);
+}

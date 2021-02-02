@@ -1,0 +1,399 @@
+.selectTaxi_head{
+    margin-top: 10px;
+    text-align: center;
+}
+.main_selecttaxi_div{
+    padding-left: 60px;
+    padding-right: 90px;
+    margin-bottom: 40px;
+    
+}
+.btnAndCard_div{
+    /* border: 2px solid; */
+    padding: 15px;
+    box-shadow: 0px 0px 3px rgb(209, 206, 206);
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.select_taxi_card_div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+
+}
+.imgAndName_div{
+    display: flex;
+    /* border: 2px solid; */
+
+}
+.name_div{
+    width: 200px;
+    /* border: 2px solid; */
+    /* width: fit-content; */
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.taxi_name{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.taxi_bag{
+    margin-top: 15px;
+    /* padding: 10px; */
+    /* margin-left: 20px; */
+}
+.taxi_span{
+    margin-left: 5px;
+
+}
+.taxi_img{
+    width: 70%;
+    /* border: 2px solid; */
+}
+.taxi_price{
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+.taxi_dollar{
+    margin-left: 10px;
+}
+.bootme_btn_div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.book_me_btn{
+    text-decoration: none;
+    text-align: right;
+    color: #0070C0;
+    font-weight: bold;
+    font-size: 1.5em;
+    /* margin-top: -20px; */
+    width: fit-content;
+
+}
+.factorial_icon{
+    color: #75b7e6;
+   /* border: 2px solid; */
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 2em;
+
+}
+.factorial_icon:hover{
+    cursor: pointer;
+}
+.factorial_icon2{
+    color: #0070C0;
+   /* border: 2px solid; */
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 2em;
+
+}
+.factorial_icon2:hover{
+    cursor: pointer;
+}
+.details_taxi{
+    margin-left: 20px;
+}
+.detail_ul{
+    list-style: none;
+}
+.detail_ul>li{
+    margin-top: 10px;
+}
+.detail_span{
+    margin-left: 5px;
+}
+.select_para1{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1000px){
+    .taxi_img{
+        width: 40%;
+    }
+    .taxi_name{
+        font-size: 1.1em;
+    }
+    .taxi_span{
+        font-size: .9em;
+    }
+    .book_me_btn{
+        font-size: 1.3em;
+    }
+    .taxi_price{
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width:720px){
+    .taxi_img{
+        width: 40%;
+    }
+    .taxi_name{
+        font-size: 1em;
+    }
+    .name_div{
+        /* border: 2px solid; */
+        width: fit-content;
+    }
+    .uptoJ_user_div{
+        margin-top: 5px !important;
+    }
+    .uptoJ_user_div2{
+        margin-top: -5px;
+    }
+    .taxi_span{
+        font-size: .9em;
+    }
+    .book_me_btn{
+        font-size: 1.1em;
+    }
+    .taxi_price{
+        font-size: .9em;
+        margin-left: 0px;
+        /* border: 2px solid; */
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 60px;
+    }
+    .main_selecttaxi_div{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .details_taxi{
+        margin-left: 40px;
+    }
+    .factorial_icon,.factorial_icon2{
+        font-size: 1.5em;
+    }
+}
+
+
+@media screen and (max-width:615px){
+    
+    .taxi_name{
+        font-size: 1em;
+    }
+    .taxi_span{
+        font-size: .8em;
+    }
+    .book_me_btn{
+        font-size: 1.1em;
+    }
+    .taxi_price{
+        font-size: .9em;
+    }
+    .name_div{
+        /* border: 2px solid; */
+        margin-left: 20px !important;
+    }
+    .main_selecttaxi_div{
+        padding: 10px;
+    }
+    .taxi_price{
+        /* border: 2px solid; */
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width:556px){
+    
+    .taxi_name{
+        font-size: .9em;
+    }
+    .taxi_span{
+        font-size: .8em;
+    }
+    .book_me_btn{
+        font-size: 1em;
+    }
+    /* .taxi_bag{
+        margin-left: 10px;
+    } */
+    .taxi_price{
+        font-size: .9em;
+        width: 70px;
+    }
+    .name_div{
+        /* border: 2px solid; */
+        margin-left: 20px !important;
+        /* width: 140px; */
+    }
+    .main_selecttaxi_div{
+        padding: 10px;
+    }
+    .taxi_price{
+        /* border: 2px solid; */
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width:480px){
+    .taxi_img{
+        width: 40%;
+    }
+    .taxi_name{
+        font-size: .9em;
+    }
+    .taxi_span{
+        font-size: .8em;
+    }
+    .book_me_btn{
+        font-size: 1em;
+    }
+    /* .taxi_bag{
+        margin-left: 10px;
+    } */
+    .taxi_price{
+        font-size: .9em;
+        width: 70px;
+    }
+    .name_div{
+        /* border: 2px solid; */
+        margin-left: 20px !important;
+        /* width: 140px; */
+    }
+    .main_selecttaxi_div{
+        padding: 2px;
+    }
+    .taxi_price{
+        /* border: 2px solid; */
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width:460px){
+    .taxi_img{
+        width: 40%;
+    }
+    .taxi_name{
+        font-size: .9em;
+    }
+    .taxi_span{
+        font-size: .8em !important;
+    }
+    .book_me_btn{
+        font-size: 1em;
+        margin-top: 20px;
+
+    }
+    .factorial_icon,.factorial_icon2{
+        margin-top: 20px;
+    }
+    /* .taxi_bag{
+        margin-left: 10px;
+    } */
+    .taxi_price{
+        font-size: .9em;
+        width: 70px;
+        /* border: solid 2px; */
+        margin-left: -40px !important;
+    }
+    .name_div{
+        /* border: 2px solid; */
+        margin-left: 20px !important;
+        /* width: 140px; */
+    }
+    .main_selecttaxi_div{
+        padding: 2px;
+    }
+    .taxi_price{
+        /* border: 2px solid; */
+        margin-left: -20px;
+    }
+    .select_taxi_card_div{
+        padding: 0px;
+    }
+    .taxi_user,.taxi_bag{
+        font-size: .8em;
+    }
+    
+}
+@media screen and (max-width:443px){
+    .taxi_img{
+        width: 45%;
+    }
+    .taxi_name{
+        font-size: .8em;
+    }
+    .taxi_span{
+        font-size: .8em;
+        margin-top: -10px !important;
+    }
+    .book_me_btn{
+        font-size: 1em;
+        margin-top: 20px;
+
+    }
+    .factorial_icon,.factorial_icon2{
+        margin-top: 20px;
+    }
+    /* .taxi_bag{
+        margin-left: 10px;
+    } */
+    .taxi_price{
+        font-size: .9em;
+        width: 70px;
+        /* border: solid 2px; */
+        margin-left: -40px !important;
+    }
+    .name_div{
+        /* border: 2px solid; */
+        margin-left: 20px !important;
+        width: fit-content;
+    }
+    .main_selecttaxi_div{
+        padding: 2px;
+    }
+    .taxi_price{
+        /* border: 2px solid; */
+        margin-left: -50px;
+        margin-top: 5px;
+       width: 80px;
+    }
+    .select_taxi_card_div{
+        padding: 0px;
+    }
+    .uptoJ_user_div{
+        margin-top: 2px !important;
+    }
+    .uptoJ_user_div2{
+        margin-top: -8px;
+    }
+    .name_div{
+        margin-top: 5px;
+    }
+    .detail_ul>li{
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width:360px){
+    .taxi_img{
+        width: 45%;
+    }
+    .taxi_name{
+        font-size: .7em;
+    }
+    .taxi_span{
+        font-size: .75em !important;
+        margin-top: -10px !important;
+    }
+    .taxi_price{
+        font-size: .8em;
+        width: 80px;
+        /* border: solid 2px; */
+        margin-left: -40px !important;
+    }
+    .taxi_dollar{
+        margin-left: 4px;
+    }
+}
+@media screen and (max-width:360px){
+    .taxi_name{
+        font-size: .8em;
+    }
+}

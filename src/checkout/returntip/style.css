@@ -1,0 +1,57 @@
+.main_return_tip_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 30px;
+}
+.return_para_div{
+    display: flex;
+}
+.label_img{
+    width: 15px;
+    height: 15px;
+    margin-top: 6px;
+    margin-left: 30px;
+}
+.retrun_price{
+    margin-left: 5px;
+    color: #39B54A;
+}
+.return_para{
+    font-size: .9em;
+    font-weight: bold;
+}
+.return_extra{
+    margin-left: 5px;
+    color: gray;
+}
+.return_inp{
+    border: none;
+    outline: none;
+    margin-top: 4px;
+    width: 60px;
+    /* overflow: scroll; */
+}
+.main_ticket2_div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    padding: 3px;
+}
+
+@media screen and (max-width:414px){
+    .label_img{
+        margin-left: 10px;
+    }
+    .return_para_div{
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width:350px){
+    .label_img{
+        margin-left: 10px;
+    }
+    .main_return_tip_div{
+        padding: 14px;
+    }
+}

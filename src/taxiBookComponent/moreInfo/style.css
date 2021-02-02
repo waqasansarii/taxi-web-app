@@ -1,0 +1,322 @@
+.for_map_comp{
+    position: fixed !important;
+    z-index: 1;
+    top: 0px;
+    /* background-color: white; */
+    width: fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+.map_comp{
+    height: 70vh !important;
+    position: relative !important;
+    top: 0px;
+    width: auto !important;
+
+
+
+}
+.google_map_container{
+    border: solid 2px !important;
+    height: 70vh;
+    width: auto;
+    padding: 0px ;
+    margin: 0px;
+    /* width: 95%; */
+}
+
+
+.main_moreinfo_div{
+    display: flex;
+    justify-content: space-between;
+    /* z-index: 1; */
+    margin-top: 30px;
+}
+.moreinfo_head{
+    margin-left: 50px;
+    font-size: 1.5em;
+}
+.moreinfo_btn{
+    margin-right: 80px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 12px;
+    border-radius: 8px;
+    width: 120px;
+    background-color: steelblue;
+    height: 40px;
+}
+.moreinfo_btn:hover{
+    cursor: pointer;
+}
+.lessinfo_btn{
+    margin-right: 80px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 12px;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    background-color: #39B54A;
+}
+.lessinfo_btn:hover{
+    cursor: pointer;
+}
+
+.main_moreinfo_card_div{
+    /* border: 1px solid gray; */
+    width: 85%;
+    border-radius: 7px;
+    margin: 0px auto;
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px rgb(184, 181, 181);
+}
+
+.moreinfo_card_div{
+    padding: 15px;
+}
+.moreinfo_card1_div{
+    background: #bdd6e7 0% 0% no-repeat padding-box ;
+    color:  #0070C0 ;
+    padding: 15px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.moreinfo_para2{
+    margin-top: 7px;
+}
+.moreinfo_para2>span,.moreinfo_para1>span{
+    margin-left: 10px;
+}
+.moreinfo_para3{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 6px;
+}
+.moreinfo_para4{
+    background: #bdd6e7 0% 0% no-repeat padding-box ;
+    color:  #0070C0 ;
+     text-align: center;
+     margin-top: 8px;
+     padding: 5px;
+     border-radius: 7px;
+     font-weight: bold;
+}
+.moreinfo_total_div{
+    display: flex;
+    justify-content: space-between;
+}
+.moreinfo_para5{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.total_price_div{
+    margin-top: 15px;
+    font-weight: bold;
+
+    
+}
+
+@media screen and (max-width:775px){
+    
+    .moreinfo_head{
+        font-size: 1.2em;
+    }
+    .moreinfo_btn,.lessinfo_btn{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:580px){
+    
+    .moreinfo_head{
+        font-size: 1.2em;
+    }
+    .moreinfo_btn,.lessinfo_btn{
+        width: 100px;
+        margin-right: 20px;
+        font-weight: normal;
+        padding: 8px;
+        width: 90px;
+    }
+}
+@media screen and (max-width:530px){
+    
+    .moreinfo_head{
+        font-size: 1.2em;
+    }
+    .moreinfo_btn,.lessinfo_btn{
+        width: 100px;
+        margin-right: 20px;
+        font-weight: normal;
+        padding: 8px;
+        width: 90px;
+    }
+    .moreinfo_para2>span,.moreinfo_para1>span{
+        font-size: .8em;
+        font-weight: bold;
+    }
+    .moreinfo_para3{
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width:485px){
+    
+    .moreinfo_head{
+        font-size: 1.2em;
+        margin-left: 20px;
+    }
+    .moreinfo_btn,.lessinfo_btn{
+        width: 100px;
+        margin-right: 20px;
+        font-weight: normal;
+        padding: 8px;
+        width: 90px;
+    }
+    .moreinfo_para2>span,.moreinfo_para1>span{
+        font-size: .8em;
+        font-weight: bold;
+    }
+    .moreinfo_para3{
+        font-size: 1em;
+    }
+    .moreinfo_para3{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:450px){
+    
+    .moreinfo_head{
+        font-size: 1.2em;
+        margin-left: 20px;
+    }
+    .moreinfo_btn,.lessinfo_btn{
+        width: 100px;
+        margin-right: 20px;
+        font-weight: bold;
+        padding: 8px;
+        width: 90px;
+        font-size: .9em;
+    }
+    .moreinfo_para2>span,.moreinfo_para1>span{
+        font-size: .8em;
+        font-weight: bold;
+    }
+    .moreinfo_para3,.moreinfo_para5{
+        font-size: .9em;
+    }
+    .moreinfo_para3{
+        font-size: .9em;
+    }
+    .moreinfo_card_div{
+        padding: 10px;
+    }
+    .moreinfo_card1_div{
+        padding: 8px;
+    }
+}
+@media screen and (max-width:410px){
+    
+    .moreinfo_head{
+        font-size: 1.2em;
+    }
+    .moreinfo_btn,.lessinfo_btn{
+        width: 80px;
+        margin-right: 20px;
+        font-weight: normal;
+        padding: 8px;
+        width: 90px;
+    }
+    .moreinfo_para2>span,.moreinfo_para1>span{
+        font-size: .7em;
+        margin-left: 2px;
+        font-weight: bold;
+    }
+    .main_moreinfo_card_div{
+        margin-top: 10px;
+    }
+}
+    
+    
+@media screen and (max-width:362px){
+    .moreinfo_head{
+        font-size: 1.1em;
+        margin-left: 10px;
+    }
+    .moreinfo_btn,.lessinfo_btn{
+        width: 80px;
+        margin-right: 20px;
+        font-weight: normal;
+        padding: 8px;
+        width: 90px;
+    }
+   
+    .main_moreinfo_card_div{
+        width: 90%;
+    }
+}
+@media screen and (max-width:345px){
+   
+    .moreinfo_head{
+        font-size: 1.1em;
+        margin-left: 10px;
+    }
+    .moreinfo_btn,.lessinfo_btn{
+        width: 80px;
+        margin-right: 20px;
+        font-weight: normal;
+        padding: 8px;
+        width: 90px;
+    }
+    .moreinfo_para2>span,.moreinfo_para1>span{
+        font-size: .7em;
+        margin-left: 2px;
+        font-weight: bold;
+    }
+    .main_moreinfo_card_div{
+        width: 85%;
+    }
+    .moreinfo_card_div{
+        padding: 7px;
+    }
+    .moreinfo_card1_div{
+        padding: 5px;
+    }
+}
+@media screen and (max-width:325px){
+    /* .main_moreinfo_div{
+        margin-top: 190%;
+    } */
+    .moreinfo_head{
+        font-size: 1em;
+        margin-left: 10px;
+    }
+    .moreinfo_btn,.lessinfo_btn{
+        width: 80px;
+        margin-right: 10px;
+        font-weight: normal;
+        padding: 6px;
+        width: 90px;
+    }
+    .moreinfo_para2>span,.moreinfo_para1>span{
+        font-size: .7em;
+        margin-left: 2px;
+        font-weight: bold;
+    }
+    .main_moreinfo_card_div{
+        width: 90%;
+    }
+    .moreinfo_card_div{
+        padding: 7px;
+    }
+    .moreinfo_card1_div{
+        padding: 5px;
+    }
+}

@@ -175,7 +175,7 @@ const SearchInput = () => {
             </div>
 
             <div className='show_price_div'>
-                <Link className='show_price_link'>
+                <Link className='show_price_link' to='/book-taxi'>
                 <FontAwesomeIcon icon={faMoneyBillAlt} />
                 <span style={{marginLeft:'10px'}}>Show Price</span>
 

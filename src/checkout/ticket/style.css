@@ -1,0 +1,287 @@
+.main_ticket_div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    padding: 10px;
+}
+.dot_div{
+    border-right: 2px dotted;
+    height: 150px;
+    margin-left: 8px;
+    width: fit-content;
+
+}
+.plane{
+    /* border: 2px solid; */
+    border-radius: 10px;
+    background-color: #a6e2ae;
+    width: 20px;
+}
+.building{
+    border-radius: 10px;
+    width: 15px;
+   margin-left: 2px;
+}
+.feild1{
+    border: 1px solid gray;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 97%;
+    max-width: 357% !important;
+    /* height: 40px; */
+    padding: 10px;
+    border-radius: 8px;
+}
+.feild1>span{
+    margin-left: 10px;
+    font-size: .9em;
+    display: inline-block;
+    font-weight: bold;
+    /* margin-bottom: 50px !important; */
+}
+.feild1>img{
+    /* margin-top: 10px; */
+    padding-top: 5px;
+}
+.pickandflight_div{
+    display: flex;
+    margin-top: 10px;
+}
+.pick_div{
+    border: 1px gray solid;
+    width: 630px ;
+    margin-left: 15px;
+
+    border-radius: 7px;
+    /* height: 50px; */
+    padding: 5px;
+    font-size: .8em;
+    font-weight: bold;
+}
+.flight_div{
+    border: 1px gray solid;
+    width: 630px ;
+    margin-left: 10px;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: .8em;
+    font-weight: bold;
+}
+.flight_div>p{
+    margin-top: 8px;
+}
+.ticket_time{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 4px;
+    margin-left: 8px;
+}
+.flight_span2{
+    display: inline-block;
+    /* margin-top: 5px; */
+    /* padding: 4px; */
+    margin-left: 8px;
+    color: gray;
+}
+
+
+@media screen and (max-width:1125px){
+    .feild1{
+        width: 96%;
+    }
+    .pick_div,.flight_div{
+        width: 450px;
+    }
+}
+@media screen and (max-width:990px){
+    .feild1{
+        width: 96%;
+    }
+    .pick_div,.flight_div{
+        width: 350px;
+    }
+}
+@media screen and (max-width:800px){
+    .feild1{
+        width: 94%;
+    }
+    .pick_div,.flight_div{
+        width: 270px;
+    }
+}
+@media screen and (max-width:630px){
+    .feild1{
+        width: 94%;
+    }
+    .pick_div,.flight_div{
+        width: 230px;
+    }
+}
+@media screen and (max-width:556px){
+    .feild1{
+        width: 92%;
+    }
+    .pick_div,.flight_div{
+        width: 200px;
+    }
+}
+@media screen and (max-width:490px){
+    .feild1{
+        width: 92%;
+    }
+    .pick_div,.flight_div{
+        width: 160px;
+    }
+    .flight_span2{
+        font-size: .7em;
+        margin-left: 4px;
+    }
+    .ticket_time,.ticket_date{
+        margin-top: 0px;
+        font-size: .9em;
+    }
+    .flight_div>p{
+        margin-top: 3px;
+        font-size: .9em;
+    }
+}
+@media screen and (max-width:420px){
+    .feild1{
+        width: 90%;
+    }
+    .pick_div,.flight_div{
+        width: 160px;
+    }
+    .flight_span2{
+        font-size: .7em;
+        margin-left: 4px;
+    }
+    .ticket_time,.ticket_date{
+        margin-top: 0px;
+        font-size: .9em;
+    }
+    .flight_div>p{
+        margin-top: 3px;
+        font-size: .9em;
+    }
+}
+@media screen and (max-width:400px){
+    .feild1{
+        width: 90%;
+    }
+    .pick_div,.flight_div{
+        width: 140px;
+    }
+    .flight_span2{
+        font-size: .7em;
+        margin-left: 4px;
+    }
+    .ticket_time,.ticket_date{
+        margin-top: 0px;
+        font-size: .9em;
+    }
+    .flight_div>p{
+        margin-top: 3px;
+        font-size: .9em;
+    }
+    .feild1{
+        font-size: .8em;
+    }
+    .flight_span{
+        font-size: .9em;
+    }
+}
+@media screen and (max-width:375px){
+    .feild1{
+        width: 90%;
+    }
+    .pick_div,.flight_div{
+        width: 130px;
+    }
+    .flight_span2{
+        font-size: .7em;
+        margin-left: 4px;
+    }
+    .ticket_time,.ticket_date{
+        margin-top: 0px;
+        font-size: .9em;
+    }
+    .flight_div>p{
+        margin-top: 3px;
+        font-size: .9em;
+    }
+    .feild1{
+        font-size: .8em;
+    }
+    .flight_span{
+        font-size: .9em;
+    }
+}
+@media screen and (max-width:350px){
+    .feild1{
+        width: 92%;
+    }
+    .feild1>span{
+        margin-left: 3px;
+    }
+    .pick_div,.flight_div{
+        width: 130px;
+        margin-left: 3px;
+    }
+    .flight_span2{
+        font-size: .7em;
+        margin-left: 4px;
+    }
+    .ticket_time,.ticket_date{
+        margin-top: 0px;
+        font-size: .9em;
+    }
+    .flight_div>p{
+        margin-top: 3px;
+        font-size: .9em;
+    }
+    .feild1{
+        font-size: .8em;
+        margin-left: 3px;
+    }
+    .flight_span{
+        font-size: .9em;
+    }
+    .pick_div{
+        font-size: .9em;
+    }
+}
+@media screen and (max-width:330px){
+    .feild1{
+        width: 92%;
+    }
+    .feild1>span{
+        margin-left: 3px;
+    }
+    .pick_div,.flight_div{
+        width: 125px;
+        margin-left: 1px;
+    }
+    .flight_span2{
+        font-size: .7em;
+        margin-left: 4px;
+    }
+    .ticket_time,.ticket_date{
+        margin-top: 0px;
+        font-size: .9em;
+    }
+    .flight_div>p{
+        margin-top: 3px;
+        font-size: .9em;
+    }
+    .feild1{
+        font-size: .8em;
+        margin-left: 1px;
+    }
+    .flight_span{
+        font-size: .9em;
+    }
+    .pick_div{
+        font-size: .8em;
+    }
+}

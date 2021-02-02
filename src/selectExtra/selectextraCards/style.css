@@ -1,0 +1,50 @@
+.Add_me_btn{
+    text-decoration: none;
+    display: inline-block;
+    /* text-align: right; */
+    margin-top: 80px;
+    color: #0070C0;
+
+}
+.extra_img{
+    width: 40%;
+}
+.addme_btn_div{
+    text-align: right;
+    vertical-align: bottom !important;
+     height: fit-content;
+     width:  fit-content;
+}
+.factorial2_icon{
+    display: inline-block;
+    margin-top: 60px;
+    font-size: 1.2em;
+    color: #65a5d3;
+}
+.factorial2_icon2{
+    display: inline-block;
+    margin-top: 60px;
+    font-size: 1.2em;
+    color: #0070C0;
+}
+.from{
+    color: gray;
+    font-size: .6em;
+}
+.select_fields{
+    margin: 0px auto;
+    text-align: center;
+}
+.option{
+    margin-top: 20px !important;
+
+}
+
+@media screen and (max-width:450px){
+    .factorial2_icon,.factorial2_icon2{
+        margin-top: 40px;
+    }
+    .Add_me_btn{
+        margin-top: 50px;
+    }
+}
