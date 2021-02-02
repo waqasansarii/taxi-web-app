@@ -89,15 +89,24 @@
 }
 .navlist_ul{
     list-style: none;
-    padding: 20px;
+    padding: 5px;
 }
 .navlist_ul>li{
-    margin: 15px;
+    margin: 10px;
 }
 .navlist_link{
     text-decoration: none;
     color: black;
     /* color: white; */
+}
+.nav_close_icon{
+    /* border: 2px solid; */
+    margin-left: 10px;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.nav_close_icon:hover{
+    cursor: pointer;
 }
 @media screen and (max-width:530px){
     .navlist_div{

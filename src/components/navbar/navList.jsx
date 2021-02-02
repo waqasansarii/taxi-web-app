@@ -1,53 +1,10 @@
-// import React from 'react'
 import { Link } from 'react-router-dom'
-
-
-// export  const NavList = ({navOpen}) => {
-//     if(!navOpen){
-//         return null
-//     }
-//     return(
-//         <div>
-//             <div className='navlist_div'>
-//                 <ul className='navlist_ul'>
-//                     <li>
-//                         <Link to='/' className='navlist_link'>Home</Link>
-//                     </li>
-//                     <li>
-//                     <Link className='navlist_link' to='/location'>Book Taxi</Link>
-
-//                     </li>
-//                     <li>
-//                     <Link className='navlist_link' to='/travel-tips'>Travel Tips</Link>
-
-//                     </li>
-//                     <li>
-//                     <Link className='navlist_link' to='/faq'>FAQ</Link>
-
-//                     </li>
-//                     <li>
-//                     <Link to='/contact' className='navlist_link'>Contact Us</Link>
-
-//                     </li>
-//                     <li>
-//                     <Link className='navlist_link' to='/csAndTs'>T's & C's</Link>
-
-//                     </li>
-//                 </ul>
-//             </div>
-//         </div>
-//     )
-// }
-
-
-
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
-import Button from '@material-ui/core/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faBars } from '@fortawesome/free-solid-svg-icons'
+import {  faBars,faTimes } from '@fortawesome/free-solid-svg-icons'
 
 const useStyles = makeStyles({
     list: {
@@ -80,7 +37,7 @@ export default function TemporaryDrawer() {
             onClick={toggleDrawer(anchor, false)}
             onKeyDown={toggleDrawer(anchor, false)}
         >
-
+         <FontAwesomeIcon  className='nav_close_icon' icon={faTimes} />
             <ul className='navlist_ul'>
                 <li>
                     <Link to='/' className='navlist_link'>Home</Link>

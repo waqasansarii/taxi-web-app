@@ -2,10 +2,8 @@ import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBook } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
-// import { faTwitter, faLinkedin, faGithub, faFacebookMessenger } from '@fortawesome/fontawesome-free-brands';
 import logo from '../../images/logo.png'
 import './navbar.css'
-import { NavList } from './navList'
 import { Link } from 'react-router-dom'
 import TemporaryDrawer from './navList'
 

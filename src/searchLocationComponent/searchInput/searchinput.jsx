@@ -21,7 +21,6 @@ const SearchInput = () => {
     let [hide , setHide] = useState(false)
     // SECOND LOCATION LIST 
     let [hide2 , setHide2] = useState(false)
-    let [hide3 , setHide3] = useState(false)
 
     // FISRT INPUT FILED FUNCTION
 
