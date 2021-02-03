@@ -113,11 +113,12 @@
         /* margin: 3px; */
         
     }
-    .othercontact_div1{
-        margin-left: -10px !important;
+    .otherContact_div{
+        justify-content: space-between;
     }
+    
     .othercontact_div2{
-        margin-right: 5px !important;
+        margin-right: -5px !important;
     }
     .cantact_3{
         margin-left: 0px !important;

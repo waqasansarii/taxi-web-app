@@ -91,24 +91,25 @@
     }
     .slider2{
         padding: 5px;
-        /* width: 87%; */
+        width: auto;
+        padding: 0px;
     background-color: rgba(245, 243, 243, 0.733);
 
 
 
     }
-    .main_taxis_div{
+    /* .main_taxis_div{
 
-    background-color: rgba(245, 243, 243, 0.733);
+    background-color: rgba(151, 150, 150, 0.733);
 
 
-    }
+    } */
 }
 @media screen and (max-width:345px){
-    .slider2{
+    /* .slider2{
         width: 80%;
-        /* overflow: hidden; */
-    }
+        overflow: hidden;
+    } */
     .taxt_head{
         font-size: 1em;
     }
@@ -122,8 +123,8 @@
 }
 
 @media screen and (max-width:315px){
-    .slider2{
+    /* .slider2{
         width: 80%;
-        /* margin-left: 10px; */
-    }
+        margin-left: 10px;
+    } */
 }

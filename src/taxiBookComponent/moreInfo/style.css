@@ -204,7 +204,7 @@
         position: sticky !important;
         top: 0px;
         /* z-index: 2; */
-        /* height:  90vh !important; */
+        height:  50vh !important;
     }
     .moreinfo_btn,.lessinfo_btn{
         width: 100px;

@@ -108,7 +108,7 @@ export default function Options({selectFunc,addfunc}) {
         </NativeSelect>
         {/* <FormHelperText>Some important helper text</FormHelperText> */}
       </FormControl>
-      <div>
+      <div className='select_extra_btns'>
         <button onClick={selectFunc} className='cancel_btn'>Cancel</button>
         <button onClick={function(){addfunc();selectFunc()}} className='add_btn'>Add</button>
       </div>

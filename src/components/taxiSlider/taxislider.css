@@ -170,7 +170,11 @@
         text-align: center;
     }
     .slider{
-        width: 85%;
+        width: auto;
+        /* padding: 0px; */
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 0px;
         /* width: auto; */
     }
     
@@ -197,9 +201,9 @@
         margin-left: 0%;
         text-align: center;
     }
-    .slider{
+    /* .slider{
         width: 82%;
-    }
+    } */
     
 }
 @media screen and (max-width:344px){
@@ -223,18 +227,18 @@
         margin-left: 0%;
         text-align: center;
     }
-    .slider{
+    /* .slider{
         width: 84%;
-    }
+    } */
     
 }
 @media screen and (max-width:320px){
     .card1,.card3{
         width: 50px;
     }
-    .slider{
+    /* .slider{
         width: 80%;
-    }
+    } */
     .taxi_decs,.taxi_decs6,.taxi_decs2,.taxi_pax{
         font-size: .5em;
     }

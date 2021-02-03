@@ -66,6 +66,8 @@
     font-size: 1.5em !important;
     /* color: steelblue; */
     color: #0070C0;
+    /* font-weight: lighter !important; */
+
     /* font-weight:100px !important; */
 }
 .nav_liii:hover{
@@ -128,9 +130,12 @@
     .bar,.user{
         font-size: 1.2em !important;
         margin-top: 5px;
+        font-weight: lighter !important;
     }
     .ul>li{
-        margin-left: 13px;
+        /* border: solid 2px; */
+        margin-left: 15px;
+        padding-right: 5px !important;
     }
     
 }

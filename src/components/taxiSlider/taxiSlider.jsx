@@ -23,6 +23,7 @@ const TaxiSlider = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
+        arrows:false
 
     };
     return (

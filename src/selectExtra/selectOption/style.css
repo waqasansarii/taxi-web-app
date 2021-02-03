@@ -7,14 +7,22 @@
     border-radius: 8px;
    width: 80px;
    color: white;
-   margin-left: 10px;
+   margin-right: 10px;
 
 }
 .cancel_btn{
     border: none;
     outline: none;
     background-color: white;
-    box-shadow: 0px 0px 5px rgb(212, 209, 209);
+    box-shadow: 0px 0px 5px rgb(230, 224, 224);
     border-radius: 8px;
     padding: 8px;
+    margin-right: 8px;
+}
+
+.select_extra_btns{
+    /* border: 2px solid; */
+    text-align: right;
+    margin-top: 10px;
+
 }

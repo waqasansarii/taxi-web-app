@@ -13,7 +13,9 @@
     font-size: 1em;
 }
 .check{
-    color: #39B54A;
+    /* color: #39B54A; */
+    color: rgb(96, 196, 110) !important;
+
     font-size: 1.2em;
 }
 .point2,.point4{
@@ -30,7 +32,9 @@
     width: fit-content;
     text-align: center;
     /* color: rgb(128, 177, 55); */
-    color: #39B54A !important;
+    /* color: #39B54A !important; */
+    color: rgb(96, 196, 110) !important;
+
     margin-top: 15px !important;
     font-size: 1.2em !important;
     font-weight: bold;
