@@ -14,10 +14,11 @@ const Location = () => {
                     <Link className='location_link' to='/location'>
 
                         <FontAwesomeIcon className='map_marker' icon={faMapMarkerAlt} />
-                        <span style={{marginLeft:'10px',fontWeight:'bold',color:'grey'}}>
+                        <input type="text" className='location_input' placeholder='Enter Your Pickup Location' name="" id=""/>
+                        {/* <span style={{marginLeft:'10px',fontWeight:'bold',color:'grey'}}>
                          Enter Your Pickup Location
                             
-                        </span>
+                        </span> */}
                     </Link>
                 </div>
 

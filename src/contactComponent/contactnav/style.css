@@ -110,6 +110,14 @@
     .othercontact_div1,.othercontact_div2{
         /* border: solid 2px; */
         padding: 0px;
+        /* margin: 3px; */
+        
+    }
+    .othercontact_div1{
+        margin-left: -10px !important;
+    }
+    .othercontact_div2{
+        margin-right: 5px !important;
     }
     .cantact_3{
         margin-left: 0px !important;
@@ -124,10 +132,14 @@
         padding: 8px !important;
     }
 }
-@media screen and (max-width:360px){
+@media screen and (max-width:364px){
     .cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
         font-size: .7em;
         margin-left: 2px;
+    }
+    .cantact_1>span,.cantact_3>span,.cantact_4>span,.cantact_2>span{
+        font-size: .7em;
+        margin-left: 10px;
     }
 }
 @media screen and (max-width:355px){
@@ -160,7 +172,7 @@
         margin-left: 5px;
     }
     .cantact_3,.cantact_4{
-        margin-left: -0px;
+        margin-left: 5px;
     }
     .othercontactnav_icon{
         font-size: .8em;

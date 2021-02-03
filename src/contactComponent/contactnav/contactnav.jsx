@@ -75,7 +75,7 @@ const ContactNav = () => {
                 </div>
                 {form ?
 
-                    <ContactForm />
+                    <ContactForm formFunc={showForm} />
                     :
                     <div className='sendmsg_div'>
                         <h3 style={{ textAlign: 'center', marginTop: '30px' }}>Sending Online Message</h3>

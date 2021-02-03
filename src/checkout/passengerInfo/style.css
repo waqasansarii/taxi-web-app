@@ -1,7 +1,17 @@
 .passenger_div{
     padding-left: 20px;
-    margin-top: 15px;
+    margin-top: -20px;
     padding-right: 30px;
+}
+.addNote{
+    display: flex;
+    justify-content: space-between;
+}
+.addNote>p{
+    margin-top: 5px;
+    text-align: right;
+    color: #0070C0;
+    font-weight: bold;
 }
 .passenger_para{
     margin-top: 5px;

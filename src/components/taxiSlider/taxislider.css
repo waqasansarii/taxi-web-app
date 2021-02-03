@@ -58,12 +58,18 @@
     width: 230px;
     /* height: 120px; */
   }
-.taxi_decs{
+.taxi_decs,.taxi_decs2,.taxi_decs6{
     font-weight: bold;
     font-size: .9em;
     margin-left: -20px;
     margin-top: 10px;
     /* text-align: center; */
+}
+.taxi_decs2{
+    margin-top: 20px;
+}
+.taxi_decs6{
+    margin-top: 15px;
 }
 .taxi_pax{
     color: steelblue;
@@ -89,7 +95,7 @@
     .card6{
         width: 160px;
     }
-    .taxi_decs,.taxi_pax{
+    .taxi_decs,.taxi_decs2,.taxi_decs6,.taxi_pax{
         font-size: .7em ;
 
     }
@@ -121,7 +127,7 @@
         width: 120px;
         margin-top: 10px;
     }
-    .taxi_decs,.taxi_pax{
+    .taxi_decs,.taxi_decs6,.taxi_decs2,.taxi_pax{
         font-size: .7em;
         margin-left: 0%;
         text-align: start;
@@ -157,7 +163,7 @@
         margin: 0px auto;
 
     }
-    .taxi_decs,.taxi_pax{
+    .taxi_decs,.taxi_decs6,.taxi_decs2,.taxi_pax{
         font-size: .6em;
         /* font-weight: norma; */
         margin-left: 0%;
@@ -165,7 +171,9 @@
     }
     .slider{
         width: 85%;
+        /* width: auto; */
     }
+    
     
 }
 @media screen and (max-width:380px){
@@ -184,7 +192,7 @@
     .card0{
         width: 65px;
     }
-    .taxi_decs,.taxi_pax{
+    .taxi_decs,.taxi_decs6,.taxi_decs2,.taxi_pax{
         font-size: .6em;
         margin-left: 0%;
         text-align: center;
@@ -210,7 +218,7 @@
     .card6{
         width: 70px;
     }
-    .taxi_decs,.taxi_pax{
+    .taxi_decs,.taxi_decs6,.taxi_decs2,.taxi_pax{
         font-size: .6em;
         margin-left: 0%;
         text-align: center;
@@ -227,7 +235,7 @@
     .slider{
         width: 80%;
     }
-    .taxi_decs,.taxi_pax{
+    .taxi_decs,.taxi_decs6,.taxi_decs2,.taxi_pax{
         font-size: .5em;
     }
     

@@ -29,57 +29,60 @@ const TaxiSlider = () => {
         <div className='taxis_container'>
             <div className='main_taxis_div'>
                 <h2 style={{ textAlign: 'center' }}>Our Fleet</h2>
+                <div className='slider_div'>
 
-                <Slider {...settings} className='slider'>
-                    <div className='div34' >
-                        {/* <h3>1</h3> */}
-                        <div className='taxi_card1'>
-                            <img className='card0' src={car1} alt="" />
-                            <p className='taxi_decs'>Taxi</p>
-                            <p className='taxi_pax'>4 Pax</p>
+
+                    <Slider {...settings} className='slider'>
+                        <div className='div34' >
+                            {/* <h3>1</h3> */}
+                            <div className='taxi_card1'>
+                                <img className='card0' src={car1} alt="" />
+                                <p className='taxi_decs'>Taxi</p>
+                                <p className='taxi_pax'>4 Pax</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div className='taxi_card1'>
-                            <img className='card2' src={car2} alt="" />
-                            <p className='taxi_decs'>VIP & Exec</p>
-                            <p className='taxi_pax'>4 Pax</p>
+                        <div>
+                            <div className='taxi_card1'>
+                                <img className='card2' src={car2} alt="" />
+                                <p className='taxi_decs2'>VIP & Exec</p>
+                                <p className='taxi_pax'>4 Pax</p>
+                            </div>
+                            {/* <h3>2</h3> */}
                         </div>
-                        {/* <h3>2</h3> */}
-                    </div>
-                    <div>
-                        {/* <h3>3</h3> */}
-                        <div className='taxi_card1'>
-                            <img className='card1' src={car3} alt="" />
-                            <p className='taxi_decs'>Small Bus</p>
-                            <p className='taxi_pax'>4 Pax</p>
+                        <div>
+                            {/* <h3>3</h3> */}
+                            <div className='taxi_card1'>
+                                <img className='card1' src={car3} alt="" />
+                                <p className='taxi_decs'>Small Bus</p>
+                                <p className='taxi_pax'>4 Pax</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        {/* <h3>4</h3> */}
-                        <div className='taxi_card1'>
-                            <img className='card1' src={car4} alt="" />
-                            <p className='taxi_decs'>Family Taxi</p>
-                            <p className='taxi_pax'>4 Pax</p>
+                        <div>
+                            {/* <h3>4</h3> */}
+                            <div className='taxi_card1'>
+                                <img className='card1' src={car4} alt="" />
+                                <p className='taxi_decs'>Family Taxi</p>
+                                <p className='taxi_pax'>4 Pax</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        {/* <h3>5</h3> */}
-                        <div className='taxi_card1'>
-                            <img className='card1' src={car5} alt="" />
-                            <p className='taxi_decs'>Coach</p>
-                            <p className='taxi_pax'>4 Pax</p>
+                        <div>
+                            {/* <h3>5</h3> */}
+                            <div className='taxi_card1'>
+                                <img className='card1' src={car5} alt="" />
+                                <p className='taxi_decs'>Coach</p>
+                                <p className='taxi_pax'>4 Pax</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        {/* <h3>6</h3> */}
-                        <div className='taxi_card1'>
-                            <img className='card6' src={car6} alt="" />
-                            <p className='taxi_decs'>Mini Bus</p>
-                            <p className='taxi_pax'>4 Pax</p>
+                        <div>
+                            {/* <h3>6</h3> */}
+                            <div className='taxi_card1'>
+                                <img className='card6' src={car6} alt="" />
+                                <p className='taxi_decs6'>Mini Bus</p>
+                                <p className='taxi_pax'>4 Pax</p>
+                            </div>
                         </div>
-                    </div>
-                </Slider>
+                    </Slider>
+                </div>
             </div>
 
         </div>

@@ -2,7 +2,7 @@
     border: 1px solid gray;
     width: fit-content;
     margin: 0px auto;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 7px;
@@ -31,7 +31,7 @@
     border: 1px solid #0070C0;
     width: fit-content;
     margin: 0px auto;
-    margin-top: 20px;
+    margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 7px;
@@ -66,12 +66,17 @@
     margin-top: 50px;
 }
 .show_price_link{
+    display: flex;
     text-decoration: none;
     color: white;
     background-color: #0070C0;
-    padding: 10px;
+    padding: 12px;
     font-weight: bold;
     border-radius: 8px;
+    width: 130px;
+    margin: 0px auto;
+    /* height: 40px; */
+
 }
 .show_price_link:hover{
     cursor: pointer;

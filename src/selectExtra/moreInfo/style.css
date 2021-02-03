@@ -33,6 +33,24 @@
     font-size: .8em;
     margin-right: 15px;
 }
+.slect_onemoreinfo_optio{
+    border: none;
+    background-color: transparent;
+    margin-left: 15px;
+    outline: none;
+}
+.slect_onemoreinfo_optio>option{
+    /* color: black; */
+}
+.slect_moreinfo_option{
+    /* display: block; */
+    /* margin-left: 20px; */
+    position: relative;
+    outline: none;
+    left: 25px;
+    border: none;
+    background-color: transparent;
+}
 
 @media screen and (max-width:414px){
 .champagne_para{

@@ -6,7 +6,7 @@
 }
 .dot_div{
     border-right: 2px dotted;
-    height: 150px;
+    height: 140px;
     margin-left: 8px;
     width: fit-content;
 
@@ -24,10 +24,13 @@
 }
 .feild1{
     border: 1px solid gray;
-    margin-top: 15px;
+    /* border: 1px rgb(197 solid; */
+
+    margin-top: 10px;
     margin-left: 15px;
     width: 97%;
     max-width: 357% !important;
+    display: flex;
     /* height: 40px; */
     padding: 10px;
     border-radius: 8px;
@@ -41,7 +44,7 @@
 }
 .feild1>img{
     /* margin-top: 10px; */
-    padding-top: 5px;
+    /* padding-top: 5px; */
 }
 .pickandflight_div{
     display: flex;
@@ -49,6 +52,8 @@
 }
 .pick_div{
     border: 1px gray solid;
+    /* border: 1px rgb(197, 194, 194) solid; */
+
     width: 630px ;
     margin-left: 15px;
 
@@ -59,8 +64,9 @@
     font-weight: bold;
 }
 .flight_div{
-    border: 1px gray solid;
-    width: 630px ;
+    border: 1px solid gray;
+    /* border: 1px rgb(197, 194, 194) solid; */
+    width: 625px ;
     margin-left: 10px;
     border-radius: 7px;
     padding: 5px;
@@ -81,6 +87,47 @@
     /* margin-top: 5px; */
     /* padding: 4px; */
     margin-left: 8px;
+    color: gray;
+}
+.bag_and_user_div{
+    display: flex;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-top: -13px !important;
+}
+.num_of_users,.num_of_bag{
+    border: 1px solid grey;
+    border-radius: 8px;
+    display: flex;
+    /* width: 46.3% !important; */
+    width: 48.4%;
+    
+}
+.num_of_bag{
+    margin-left: 18px;
+
+}
+.num_of_User_icon{
+    margin-top: 7px;
+    font-size: 1.3em;
+    color: gray;
+    margin-left: 8px;
+}
+.num_of_bag_icon{
+    margin-top: 7px;
+    font-size: 1.3em;
+    color: gray;
+    margin-left: 17px;
+}
+.num_of_User_option,.num_of_bag_option{
+    
+    /* border: 2px solid red !important; */
+    width: 90.3% ;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    margin-left: 10px !important;
+    height: 40px;
     color: gray;
 }
 
@@ -129,6 +176,25 @@
     .feild1{
         width: 92%;
     }
+    .num_of_User_option,.num_of_bag_option{
+        font-size: .8em;
+        width: 60%;
+        /* margin-left: 0px; */
+    }
+    .bag_and_user_div{
+       margin-top: -25px !important;
+    }
+    .num_of_User_icon,.num_of_bag_icon{
+        font-size: .9em;
+        margin-top: 12px;
+    }
+    .num_of_users,.num_of_bag{
+        /* width: 40.5%; */
+        width: 165px;
+    }
+    .num_of_bag{
+        margin-left: 10px;
+    }
     .pick_div,.flight_div{
         width: 160px;
     }
@@ -165,12 +231,28 @@
         font-size: .9em;
     }
 }
+@media screen and (max-width:414px){
+    .num_of_users,.num_of_bag{
+        width: 168px;
+    }
+}
+@media screen and (max-width:411px){
+    .num_of_users,.num_of_bag{
+        width: 168px;
+    }
+}
 @media screen and (max-width:400px){
     .feild1{
         width: 90%;
     }
+    .bag_and_user_div{
+        margin-top: -32px !important;
+     }
     .pick_div,.flight_div{
         width: 140px;
+    }
+    .num_of_bag,.num_of_users{
+        width: 149px;
     }
     .flight_span2{
         font-size: .7em;
@@ -195,8 +277,24 @@
     .feild1{
         width: 90%;
     }
+    .bag_and_user_div{
+        margin-top: -15px !important;
+     }
     .pick_div,.flight_div{
         width: 130px;
+    }
+.num_of_User_option,.num_of_bag_option{
+    margin-left: 3px !important;
+    width: 100px;
+}
+    .bag_and_user_div{
+        padding-left: 25px;
+    }
+    .num_of_bag_icon{
+        margin-left: 5px !important; 
+    }
+    .num_of_users,.num_of_bag{
+        width: 142px;
     }
     .flight_span2{
         font-size: .7em;
@@ -217,15 +315,22 @@
         font-size: .9em;
     }
 }
-@media screen and (max-width:350px){
+@media screen and (max-width:360px){
     .feild1{
         width: 92%;
     }
     .feild1>span{
         margin-left: 3px;
     }
+    .bag_and_user_div{
+        margin-top: -30px!important;
+        padding-left: 15px;
+    }
+    .num_of_bag,.num_of_users{
+        width: 148px;
+    }
     .pick_div,.flight_div{
-        width: 130px;
+        width: 145px;
         margin-left: 3px;
     }
     .flight_span2{
@@ -248,7 +353,7 @@
         font-size: .9em;
     }
     .pick_div{
-        font-size: .9em;
+        font-size: .8em;
     }
 }
 @media screen and (max-width:330px){
@@ -283,5 +388,54 @@
     }
     .pick_div{
         font-size: .8em;
+    }
+    .bag_and_user_div{
+        padding-left: 12px;
+        margin-top: -10px !important;
+    }
+    .num_of_bag,.num_of_users{
+        width: 130px;
+    }
+}
+@media screen and (max-width:320px){
+    .feild1{
+        width: 92%;
+    }
+    .feild1>span{
+        margin-left: 3px;
+    }
+    .pick_div,.flight_div{
+        width: 125px;
+        margin-left: 1px;
+    }
+    .flight_span2{
+        font-size: .7em;
+        margin-left: 4px;
+    }
+    .ticket_time,.ticket_date{
+        margin-top: 0px;
+        font-size: .9em;
+    }
+    .flight_div>p{
+        margin-top: 3px;
+        font-size: .8em;
+    }
+    .feild1{
+        font-size: .8em;
+        margin-left: 1px;
+    }
+    .flight_span{
+        font-size: .8em;
+    }
+    .pick_div{
+        font-size: .7em;
+        height: 40px;
+    }
+    .dot_div{
+        height: 130px;
+    }
+    .bag_and_user_div{
+        margin-top: -25px!important;
+        /* padding-left: 15px; */
     }
 }

@@ -9,19 +9,21 @@
 }
 .map_comp{
     height: 70vh !important;
-    position: relative !important;
-    top: 0px;
     width: auto !important;
-
-
-
+    position: sticky !important;
+    top: 0px;
+    
 }
 .google_map_container{
-    border: solid 2px !important;
+    /* border: solid 2px !important; */
     height: 70vh;
     width: auto;
     padding: 0px ;
     margin: 0px;
+    position: sticky !important;
+    top: 100px;
+    /* z-index:10 !important; */
+
     /* width: 95%; */
 }
 
@@ -33,7 +35,7 @@
     margin-top: 30px;
 }
 .moreinfo_head{
-    margin-left: 50px;
+    margin-left: 60px;
     font-size: 1.5em;
 }
 .moreinfo_btn{
@@ -71,7 +73,7 @@
 
 .main_moreinfo_card_div{
     /* border: 1px solid gray; */
-    width: 85%;
+    width: 91%;
     border-radius: 7px;
     margin: 0px auto;
     margin-top: 30px;
@@ -128,6 +130,7 @@
     
     .moreinfo_head{
         font-size: 1.2em;
+        margin-left: 30px;
     }
     .moreinfo_btn,.lessinfo_btn{
         width: 100px;
@@ -197,6 +200,12 @@
         font-size: 1.2em;
         margin-left: 20px;
     }
+    .google_map_container,.map_comp{
+        position: sticky !important;
+        top: 0px;
+        /* z-index: 2; */
+        /* height:  90vh !important; */
+    }
     .moreinfo_btn,.lessinfo_btn{
         width: 100px;
         margin-right: 20px;
@@ -259,7 +268,7 @@
     }
    
     .main_moreinfo_card_div{
-        width: 90%;
+        width: 92%;
     }
 }
 @media screen and (max-width:345px){

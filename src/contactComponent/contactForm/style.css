@@ -18,56 +18,97 @@
     height: 30px;
     border-radius: 8px;
     padding: 8px;
+    font-size: .9em;
+    margin-top: 10px;
+}
+.input_msg{
+    width: 600px;
+    height: 100px !important;
+    outline: none;
+    border: 1px solid steelblue;
+    /* height: 30px; */
+    border-radius: 8px;
+    padding: 8px;
     font-size: 1em;
     margin-top: 10px;
-
+}
+.form_input_btnss{
+    display: flex;
 }
 .input_btn{
-    width: 620px;
+    width: 48%;
     margin-top: 10px;
-    height: 40px;
+    height: 50px;
     padding: 10px;
     text-align: center;
-    border-radius: 10px;
-    background-color: steelblue;
+    border-radius: 8px;
+    background-color: #0070C0;
     outline: none;
     border: none;
     color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.input_cancel_btn{
+    width: 48%;
+    margin-top: 10px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #0070C0;
+    color: #0070C0;
     font-weight: bold;
 }
 .input_btn:active{
     background-color: rgb(161, 175, 187);
 }
-.input_btn:hover{
+.input_btn:hover,.input_cancel_btn:hover{
     cursor: pointer;
 }
 
 @media screen and (max-width:570px){
-    .input{
+    .input,.input_msg{
         width: 350px;
         height: 25px;
     }
-    .input_btn{
+    /* .input_btn{
         width: 370px;
-    }
+    } */
 }
 @media screen and (max-width:416px){
-    .input{
-        width: 270px;
+    .input,.input_msg{
+        width: 300px;
         height: 25px;
         border-radius: 5px;
     }
-    .input_btn{
+    /* .input_btn{
         width: 290px;
+    } */
+}
+@media screen and (max-width:362px){
+    .input,.input_msg{
+        width: 280px;
+        height: 25px;
+        border-radius: 5px;
+    }
+    .input_msg{
+        height: 80px !important;
+    }
+    .input_btn,.input_cancel_btn{
+        height: 40px;
+        /* width: 290px; */
     }
 }
 @media screen and (max-width:330px){
-    .input{
-        width: 230px;
+    .input,.input_msg{
+        width: 260px;
         height: 20px;
         border-radius: 5px;
     }
-    .input_btn{
+    /* .input_btn{
         width: 250px;
-    }
+    } */
 }

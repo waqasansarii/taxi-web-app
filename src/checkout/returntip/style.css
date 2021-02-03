@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 20px;
     padding-left: 30px;
+    /* border: 2px solid; */
 }
 .return_para_div{
     display: flex;
@@ -28,15 +29,44 @@
 .return_inp{
     border: none;
     outline: none;
-    margin-top: 4px;
-    width: 60px;
+    background-color: transparent;
+    margin-top: 10px;
+    width: 100px;
+
+    /* border: 2px solid; */
     /* overflow: scroll; */
+}
+.add_note_btn_div{
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: right;
+    padding-right: 30px;
+}
+.add_note_btn_div>button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: fit-content;
+    text-align: right;
+    color: #0070C0;
+    font-weight: bold;
+}
+.need_something_div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.need_something_textarea{
+    width: 97%;
+    border-radius: 8px;
+    font-size: 1em;
+    padding: 5px;
 }
 .main_ticket2_div{
     display: flex;
     justify-content: space-between;
     /* border: 2px solid; */
     padding: 3px;
+    /* padding-left: 8px; */
 }
 
 @media screen and (max-width:414px){
@@ -53,5 +83,29 @@
     }
     .main_return_tip_div{
         padding: 14px;
+    }
+}
+@media screen and (max-width:360px){
+    .label_img{
+        margin-left: 10px;
+    }
+    .main_return_tip_div{
+        padding: 14px;
+    }
+    .main_ticket2_div{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+@media screen and (max-width:320px){
+    .label_img{
+        margin-left: 10px;
+    }
+    .main_return_tip_div{
+        padding: 14px;
+    }
+    .main_ticket2_div{
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }

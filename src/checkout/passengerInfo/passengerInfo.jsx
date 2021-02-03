@@ -6,6 +6,10 @@ const PassengerInfo = () => {
     return (
         <div>
             <div className='passenger_div'>
+                <div className='addNote'>
+
+                {/* <p>Add Note</p> */}
+                </div>
                 <h3 className='passenger_head'>Lead Passenger Info</h3>
                 <p className='passenger_para'>Passenger profile will be created</p>
                 <div>

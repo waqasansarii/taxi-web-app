@@ -54,6 +54,12 @@ const SelectExtraMoreInfo = () => {
                                <div className='champagne_div'>
                                    <FontAwesomeIcon icon={faGlassMartiniAlt} />
                                    <span className='champagne_para'>Champagne</span>
+                                   <div className='selct_onemoreinfo_option'>
+
+                                   <select name="" id="" className='slect_onemoreinfo_optio'>
+                                       <option value="">lrg.  abc</option>
+                                   </select>
+                                   </div>
                                </div>
                                <div>
                                    <span className='multiple'>x1</span>
@@ -65,6 +71,12 @@ const SelectExtraMoreInfo = () => {
                                <div >
                                    <FontAwesomeIcon icon={faSpa} />
                                    <span className='champagne_para'>Flower</span>
+                                   <div className='slect_moreinfo_optio'>
+
+                                   <select name="" id="" className='slect_moreinfo_option'>
+                                       <option value="">lrg.  abc</option>
+                                   </select>
+                                   </div>
                                </div>
                                <div>
                                    <span className='multiple'>x2</span>

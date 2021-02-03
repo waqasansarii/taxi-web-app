@@ -61,7 +61,7 @@ const Payment = () => {
                     </div>
                 </div>
                 <div>
-                    <Link className='read_link' to='/welcome'>
+                    <Link className='pay_link' to='/welcome'>
                     <button className='pay_btn'>Pay</button>
                     </Link>
                 </div>

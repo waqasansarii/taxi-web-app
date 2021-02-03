@@ -2,13 +2,15 @@
     margin: 0px auto;
     margin-top: 60px;
     text-align: center;
+    /* background-color: rgba(250, 248, 248, 0.795); */
+
 }
 .slider2{
     width: 90%;
     padding: 20px;
     margin: 0px auto;
-    background-color: rgba(250, 248, 248, 0.795);
-    border-radius: 15px;
+    background-color: rgba(245, 243, 243, 0.733);
+    border-radius: 8px;
 }
 .taxt_head{
     margin: 10px;
@@ -86,6 +88,20 @@
     }
     .taxt_para{
         font-size: .8em;
+    }
+    .slider2{
+        padding: 5px;
+        /* width: 87%; */
+    background-color: rgba(245, 243, 243, 0.733);
+
+
+
+    }
+    .main_taxis_div{
+
+    background-color: rgba(245, 243, 243, 0.733);
+
+
     }
 }
 @media screen and (max-width:345px){

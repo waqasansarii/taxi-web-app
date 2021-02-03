@@ -17,3 +17,52 @@
 .time{
     color: rgb(15, 107, 182);
 }
+.checkout_user_info_div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.plane2{
+    color: gray;
+    /* transform: rotate(270deg); */
+    
+}
+.checkout_ticket_num{
+    margin-left: 3px;
+    /* margin-top: 3px; */
+    font-size: .8em;
+    font-weight: bold;
+    
+}
+.checkout_user_icon{
+    margin-left: 7px;
+    color: gray;
+    font-size: .9em;
+    /* margin-top: 3px; */
+}
+@media screen and (max-width:360px){
+    .checkout_ticket_num{
+        font-size: .7em;
+        margin-left: 1px;
+    }
+}
+@media screen and (max-width:320px){
+    .checkout_ticket_num{
+        font-size: .7em;
+        margin-left: 1px;
+    }
+    .checkout_user_icon,.plane2{
+        font-size: .8em;
+        margin-left: 5px;
+    }
+    .date,.time{
+        font-size: .7em;
+    }
+    .price_para2{
+        font-size: .8em;
+        margin-top: 3px;
+    }
+    .date_price_div{
+        padding-left: 0px;
+    }
+}

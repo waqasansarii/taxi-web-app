@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import './style.css'
-import { faMapMarkerAlt, faSpa ,faDollarSign,faGlassMartiniAlt, faCalendar} from '@fortawesome/free-solid-svg-icons'
+import { faMapMarkerAlt, faSpa ,faDollarSign,faGlassMartiniAlt, faCalendar,faUser,faPlane} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import plane from '../../images/plane.png'
 // import { faMap } from '@fortawesome/free-regular-svg-icons'
 
 
@@ -37,10 +38,17 @@ const CheckoutMoreInfo = () => {
                         <div className='moreinfo_card_div'>
                             <div className='date_price_div'>
                                 <div className='date_div'>
-                                <FontAwesomeIcon icon={faCalendar} />
+                                <FontAwesomeIcon className='plane2' icon={faCalendar} />
                                 <span className='date'>2021-01-14</span>
                                 <span className='time'>15:21</span>
 
+                                </div>
+                                <div className='checkout_user_info_div'>
+                                    {/* <img className='plane2' src={plane} alt=""/> */}
+                                    <FontAwesomeIcon className='plane2' icon={faPlane}/>
+                                    <p className='checkout_ticket_num'>  AA54321</p>
+                                    <FontAwesomeIcon className='checkout_user_icon' icon={faUser} />
+                                    <p className='checkout_ticket_num'>02</p>
                                 </div>
 
                                 <p className='price_para2'>$40</p>
@@ -58,10 +66,17 @@ const CheckoutMoreInfo = () => {
                             </div>
                             <div className='date_price_div'>
                                 <div className='date_div'>
-                                <FontAwesomeIcon icon={faCalendar} />
+                                <FontAwesomeIcon className='plane2' icon={faCalendar} />
                                 <span className='date'>2021-01-20</span>
                                 <span className='time'>20:21</span>
 
+                                </div>
+                                <div className='checkout_user_info_div'>
+                                    {/* <img className='plane2' src={plane} alt=""/> */}
+                                    <FontAwesomeIcon className='plane2' icon={faPlane}/>
+                                    <p className='checkout_ticket_num'>  AA54321</p>
+                                    <FontAwesomeIcon className='checkout_user_icon' icon={faUser} />
+                                    <p className='checkout_ticket_num'>02</p>
                                 </div>
 
                                 <p className='price_para2'>$40</p>
@@ -72,6 +87,7 @@ const CheckoutMoreInfo = () => {
                                     <FontAwesomeIcon icon={faMapMarkerAlt} />
                                     <span>Sangster International Airport, Montego Bay</span>
                                 </div>
+                                
                                 <div className='moreinfo_para2'>
                                     <FontAwesomeIcon icon={faMapMarkerAlt} />
                                     <span>Sandals Hotel, Montego Bay</span>

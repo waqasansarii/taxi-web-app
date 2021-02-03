@@ -4,6 +4,13 @@
     /* text-align: center; */
     /* border: solid 2px; */
     width:  fit-content;
+    
+}
+.location_container{
+    position: sticky !important;
+    top: 70px;
+    background-color: white;
+    z-index: 1;
 
 }
 .input_and_map{

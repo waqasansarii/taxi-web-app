@@ -3,6 +3,7 @@ import { faArrowRight, faMapMarkerAlt, faTimes,faMoneyBillAlt } from '@fortaweso
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCompass} from '@fortawesome/free-regular-svg-icons'
 import {Link} from 'react-router-dom'
+import priceTag from '../../images/price-tag.png'
 
 import './style.css'
 import '../locationList/style.css'
@@ -178,8 +179,9 @@ const SearchInput = () => {
 
             <div className='show_price_div'>
                 <Link className='show_price_link' to='/book-taxi'>
-                <FontAwesomeIcon icon={faMoneyBillAlt} />
-                <span style={{marginLeft:'10px'}}>Show Price</span>
+                {/* <FontAwesomeIcon icon={faMoneyBillAlt} /> */}
+                <img src={priceTag}   alt=""/>
+                <span style={{marginLeft:'5px'}}>Show Price</span>
 
                 </Link>
 

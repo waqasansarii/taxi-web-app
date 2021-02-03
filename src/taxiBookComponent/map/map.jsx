@@ -1,5 +1,5 @@
-import React,{Component} from 'react'
-import {Map, Marker, GoogleApiWrapper} from 'google-maps-react';
+import React, { Component } from 'react'
+import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 // import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
@@ -25,7 +25,7 @@ import {Map, Marker, GoogleApiWrapper} from 'google-maps-react';
 //      return(
 //          <div>
 //              <MyMapComponent
-             
+
 //             //  isMarkerShown
 //             googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=
 //         ${process.env.REACT_APP_GOOGLE_KEY}`}
@@ -41,39 +41,46 @@ import {Map, Marker, GoogleApiWrapper} from 'google-maps-react';
 
 
 export class MapContainer extends Component {
-    state = {
-      showingInfoWindow: false,
-      activeMarker: {},
-      selectedPlace: {},
-    };
-   
-    onMarkerClick = (props, marker, e) =>
+ 
+  state = {
+    showingInfoWindow: false,
+    activeMarker: {},
+    selectedPlace: {},
+  };
+
+  onMarkerClick = (props, marker, e) =>
+    this.setState({
+      selectedPlace: props,
+      activeMarker: marker,
+      showingInfoWindow: true
+    });
+
+  onMapClicked = (props) => {
+    if (this.state.showingInfoWindow) {
       this.setState({
-        selectedPlace: props,
-        activeMarker: marker,
-        showingInfoWindow: true
-      });
-   
-    onMapClicked = (props) => {
-      if (this.state.showingInfoWindow) {
-        this.setState({
-          showingInfoWindow: false,
-          activeMarker: null
-        })
-      }
-    };
-   
-    render() {
-      return (
-        <div className='google_map_container'>
+        showingInfoWindow: false,
+        activeMarker: null
+      })
+    }
+  };
+
+  componentDidMount(){
+    window.scrollTo(0,200)
+    console.log('run')
+
+  }
+
+  render() {
+    return (
+      <div className='google_map_container'>
 
         <Map google={this.props.google}
-           className='map_comp'
-           style={{opacity:'none',position:'absolute',top:'0px'}}
-            onClick={this.onMapClicked}>
+          className='map_comp'
+          // style={{ opacity: 'none', position: 'absolute', top: '0px' ,zInde}}
+          onClick={this.onMapClicked}>
           <Marker onClick={this.onMarkerClick}
-                  name={'Current location'} />
-   
+            name={'Current location'} />
+
           {/* <InfoWindow
             marker={this.state.activeMarker}
             visible={this.state.showingInfoWindow}>
@@ -82,11 +89,11 @@ export class MapContainer extends Component {
               </div>
             </InfoWindow> */}
         </Map>
-  </div>
-      )
-    }
+      </div>
+    )
   }
+}
 
-  export default GoogleApiWrapper({
-    apiKey: ("AIzaSyBrgl8S7ZqyFzhvqmErBQKAyfCy660ugY0")
-  })(MapContainer)
+export default GoogleApiWrapper({
+  apiKey: ("AIzaSyBrgl8S7ZqyFzhvqmErBQKAyfCy660ugY0")
+})(MapContainer)

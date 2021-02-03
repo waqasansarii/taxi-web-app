@@ -1,18 +1,23 @@
 import React from 'react'
 import './style.css'
 
-const ContactForm =() => {
-    return(
+const ContactForm = ({formFunc}) => {
+    return (
         <div>
             <div className='contact_form_div'>
-                <h3 style={{textAlign:'center'}}>Write To Us</h3>
+                <h3 style={{ textAlign: 'center' }}>Write To Us</h3>
                 <form action="" className='msg_form'>
-                    <input type="text" className='input' placeholder='Enter First Name' name="" id=""/>
-                    <input type="text" className='input' placeholder='Enter Last Name' name="" id=""/>
-                    <input type="text" className='input' placeholder='Enter Email' name="" id=""/>
-                    <input type="text" className='input' placeholder='Enter Subject' name="" id=""/>
-                    <input type="text" className='input' placeholder='Enter Message' name="" id=""/>
-                    <input type='submit' className='input_btn' name="" id=""/>
+                    <input type="text" className='input' placeholder='Type First Name' name="" id="" />
+                    <input type="text" className='input' placeholder='Type Last Name' name="" id="" />
+                    <input type="text" className='input' placeholder='Type Email' name="" id="" />
+                    <input type="text" className='input' placeholder='Type Subject' name="" id="" />
+                    {/* <input type="text" className='input_msg' placeholder='Type Message' name="" id="" /> */}
+                    <textarea name="" id="" cols="30"  className='input_msg' placeholder='Type Message'></textarea>
+                    <div className='form_input_btnss'>
+
+                        <input type='button' className='input_cancel_btn' onClick={formFunc} name="Cancel" id="" value='Cancel' />
+                        <input type='submit' className='input_btn' value="Send" id="" />
+                    </div>
                 </form>
 
             </div>

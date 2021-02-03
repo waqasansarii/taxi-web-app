@@ -17,7 +17,7 @@ const MoreInfo = () => {
     return (
         <div>
             <div className='main_moreinfo_div'>
-                <h3 className='moreinfo_head'>Booking Summery</h3>
+                <h3 className='moreinfo_head'>Booking Summary</h3>
                 {showMore ?
                     <button onClick={handleShow} className='lessinfo_btn'>Less Info</button>
 
@@ -43,7 +43,7 @@ const MoreInfo = () => {
                                 </div>
                             </div>
                             <p className='moreinfo_para3'>Trip Extras</p>
-                            <p className='moreinfo_para4'>No Extra</p>
+                            <p className='moreinfo_para4'>No Extras</p>
                             <div className='moreinfo_total_div'>
                                 <p className='moreinfo_para5'>Total</p>
                                 <div className='total_price_div'>

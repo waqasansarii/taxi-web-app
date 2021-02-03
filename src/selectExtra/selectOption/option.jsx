@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
     minWidth: 120,
     // border:'2px solid',
-    width:'50%',
+    width:'75%',
     marginTop:'10px'
   },
   selectEmpty: {
@@ -58,7 +58,7 @@ export default function Options({selectFunc,addfunc}) {
   return (
     <div>
      
-      <FormControl className={classes.formControl}>
+      <FormControl className={classes.formControl} >
         <InputLabel htmlFor="age-native-helper">Select Airport</InputLabel>
         <NativeSelect
           value={state.age}
@@ -109,8 +109,8 @@ export default function Options({selectFunc,addfunc}) {
         {/* <FormHelperText>Some important helper text</FormHelperText> */}
       </FormControl>
       <div>
-        <button onClick={function(){addfunc();selectFunc()}} className='add_btn'>Add</button>
         <button onClick={selectFunc} className='cancel_btn'>Cancel</button>
+        <button onClick={function(){addfunc();selectFunc()}} className='add_btn'>Add</button>
       </div>
     </div>
   );

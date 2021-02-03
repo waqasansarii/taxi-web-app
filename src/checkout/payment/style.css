@@ -84,7 +84,11 @@
     font-weight: bold;
     border-radius: 7px;
     padding: 10px;
+    /* margin-right: 20px; */
     background-color: #0070C0;
+}
+.pay_btn:hover{
+    cursor: pointer;
 }
 .payment_card1>p,.payment_card2>p,.payment_card3>p{
     margin-left: 8px;
