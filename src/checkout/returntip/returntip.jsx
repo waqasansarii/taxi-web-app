@@ -11,6 +11,15 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
 const ReturnTip = () => {
 
+    const [state, setState] = React.useState({
+        checkedA: true,
+        checkedB: true,
+    });
+    const handleChange = (event) => {
+        setState({ ...state, [event.target.name]: event.target.checked });
+        // console.log(state.checkedB)
+    };
+
     let [hide, setHide] = useState(false);
     const handleArea = () => {
         setHide(!hide)
@@ -32,6 +41,7 @@ const ReturnTip = () => {
                     name="checkedB"
                     inputProps={{ 'aria-label': 'primary checkbox' }}
                 />
+                {/* <button>Add Note</button> */}
 
 
             </div>
@@ -47,6 +57,7 @@ const ReturnTip = () => {
                             <div className='pickandflight_div'>
                                 <div className='pick_div'>
                                     <p>Pickup Date & Time</p>
+                                    
                                     <input type="datetime" placeholder='20-01-21 16:30' className='return_inp' name="" id="" />
                                     {/* <span className='ticket_date'>20-01-21</span> */}
                                     {/* <span className='ticket_time'>16:30</span> */}
