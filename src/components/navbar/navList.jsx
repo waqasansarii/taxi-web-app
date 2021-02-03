@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faBars,faTimes } from '@fortawesome/free-solid-svg-icons'
+import {  faTimes } from '@fortawesome/free-solid-svg-icons'
 import menu from '../../images/menu.png'
 
 const useStyles = makeStyles({
