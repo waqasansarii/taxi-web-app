@@ -46,7 +46,7 @@ const ReturnTip = () => {
 
             </div>
             {state.checkedB ?
-                <div >
+                <div className='checkout_ticket2_div'>
 
                     <div className='main_ticket2_div'>
                         <div>
