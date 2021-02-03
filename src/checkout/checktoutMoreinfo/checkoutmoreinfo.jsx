@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import './style.css'
 import { faMapMarkerAlt, faSpa ,faDollarSign,faGlassMartiniAlt, faCalendar,faUser,faPlane} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import plane from '../../images/plane.png'
-// import { faMap } from '@fortawesome/free-regular-svg-icons'
 
 
 

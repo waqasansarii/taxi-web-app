@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { faArrowRight, faMapMarkerAlt, faTimes,faMoneyBillAlt } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faMapMarkerAlt, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCompass} from '@fortawesome/free-regular-svg-icons'
 import {Link} from 'react-router-dom'

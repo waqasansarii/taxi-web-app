@@ -5,41 +5,37 @@ import building from '../../images/building.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt, faUser, faShoppingBag } from '@fortawesome/free-solid-svg-icons'
 
-import { makeStyles } from '@material-ui/core/styles';
-import InputLabel from '@material-ui/core/InputLabel';
-import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select';
 import './style.css'
 
 
-const useStyles = makeStyles((theme) => ({
-    formControl: {
-        margin: theme.spacing(1),
-        minWidth: 120,
-    },
-    selectEmpty: {
-        marginTop: theme.spacing(2),
-    },
-}));
+// const useStyles = makeStyles((theme) => ({
+//     formControl: {
+//         margin: theme.spacing(1),
+//         minWidth: 120,
+//     },
+//     selectEmpty: {
+//         marginTop: theme.spacing(2),
+//     },
+// }));
 
 
 const Ticket = () => {
 
 
 
-    const classes = useStyles();
-    const [state, setState] = React.useState({
-        age: '',
-        name: 'hai',
-    });
+    // const classes = useStyles();
+    // const [state, setState] = React.useState({
+    //     age: '',
+    //     name: 'hai',
+    // });
 
-    const handleChange = (event) => {
-        const name = event.target.name;
-        setState({
-            ...state,
-            [name]: event.target.value,
-        });
-    };
+    // const handleChange = (event) => {
+    //     const name = event.target.name;
+    //     setState({
+    //         ...state,
+    //         [name]: event.target.value,
+    //     });
+    // };
 
     return (
         <div>

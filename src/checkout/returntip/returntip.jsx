@@ -7,33 +7,9 @@ import pin from '../../images/pin (5).png'
 import building from '../../images/building.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
-import { makeStyles } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
 
-const useStyles = makeStyles((theme) => ({
-    container: {
-      display: 'flex',
-      flexWrap: 'wrap',
-    },
-    textField: {
-        marginLeft: theme.spacing(1),
-        marginRight: theme.spacing(1),
-        width: 200,
-        borderBottom:'none !important'
-    },
-  }));
 
 const ReturnTip = () => {
-    const classes = useStyles();
-
-    const [state, setState] = React.useState({
-        checkedA: true,
-        checkedB: true,
-    });
-    const handleChange = (event) => {
-        setState({ ...state, [event.target.name]: event.target.checked });
-        // console.log(state.checkedB)
-    };
 
     let [hide, setHide] = useState(false);
     const handleArea = () => {
@@ -56,7 +32,6 @@ const ReturnTip = () => {
                     name="checkedB"
                     inputProps={{ 'aria-label': 'primary checkbox' }}
                 />
-                {/* <button>Add Note</button> */}
 
 
             </div>
@@ -72,18 +47,6 @@ const ReturnTip = () => {
                             <div className='pickandflight_div'>
                                 <div className='pick_div'>
                                     <p>Pickup Date & Time</p>
-                                    {/* <form className={classes.container} noValidate>
-                                        <TextField
-                                            id="datetime-local"
-                                            // label="Next appointment"
-                                            type="datetime-local"
-                                            defaultValue="2017-05-24T10:30"
-                                            className={classes.textField}
-                                            InputLabelProps={{
-                                                shrink: true,
-                                            }}
-                                        />
-                                    </form> */}
                                     <input type="datetime" placeholder='20-01-21 16:30' className='return_inp' name="" id="" />
                                     {/* <span className='ticket_date'>20-01-21</span> */}
                                     {/* <span className='ticket_time'>16:30</span> */}
