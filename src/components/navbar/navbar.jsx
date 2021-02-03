@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBook } from '@fortawesome/free-solid-svg-icons'
-import { faUser } from '@fortawesome/free-regular-svg-icons'
+// import { faUser } from '@fortawesome/free-regular-svg-icons'
 import logo from '../../images/logo.png'
+import user from '../../images/user (14).png'
 import './navbar.css'
 import { Link } from 'react-router-dom'
 import TemporaryDrawer from './navList'
@@ -35,7 +36,8 @@ const Navbar = () => {
                         </li>
 
                         <li>
-                            <FontAwesomeIcon className='user' icon={faUser} />
+                            {/* <FontAwesomeIcon className='user' icon={faUser} /> */}
+                            <img src={user} className='user' alt=""/>
                         </li>
                         <li className='nav_liii' onClick={handleOpen}>
                             {/* <FontAwesomeIcon className='bar' icon={faBars} /> */}

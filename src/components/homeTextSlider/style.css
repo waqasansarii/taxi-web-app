@@ -14,7 +14,9 @@
 }
 .taxt_head{
     margin: 10px;
-    color: green;
+    /* color: green; */
+    color: rgb(96, 196, 110) !important;
+
 }
 .taxt_para{
     margin-top: 30px;

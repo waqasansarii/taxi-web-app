@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faBars,faTimes } from '@fortawesome/free-solid-svg-icons'
+import menu from '../../images/menu.png'
 
 const useStyles = makeStyles({
     list: {
@@ -72,7 +73,8 @@ export default function TemporaryDrawer() {
             {['right'].map((anchor) => (
                 <React.Fragment key={anchor}>
                     {/* <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button> */}
-                    <FontAwesomeIcon className='bar' onClick={toggleDrawer(anchor, true)}icon={faBars} />
+                    {/* <FontAwesomeIcon className='bar' onClick={toggleDrawer(anchor, true)}icon={faBars} /> */}
+                    <img src={menu} className='bar' onClick={toggleDrawer(anchor, true)} alt=""/>
                     <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
                         {list(anchor)}
                     </Drawer>

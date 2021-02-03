@@ -4,7 +4,9 @@
 }
 .whoareWe_head{
     margin-left: 10%;
-    color: rgb(69, 129, 9);
+    /* color: rgb(69, 129, 9); */
+    color: rgb(96, 196, 110) !important;
+
 }
 .whoareWe_para{
     /* border: 2px solid; */
@@ -22,7 +24,9 @@
 }
 .whoareWe_head2{
     margin-left: 45%;
-    color: rgb(69, 129, 9);
+    /* color: rgb(69, 129, 9); */
+    color: rgb(96, 196, 110) !important;
+
 }
 
 /* .para_div{
@@ -49,7 +53,9 @@
 
 .whychooseus_head{
     margin-left: 10%;
-    color: rgb(69, 129, 9);
+    /* color: rgb(69, 129, 9); */
+    color: rgb(96, 196, 110) !important;
+
 }
 .whychooseus_para{
     /* border: 2px solid; */

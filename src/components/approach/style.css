@@ -24,7 +24,9 @@
     color: grey;
 }
 .check2{
-    color: rgb(86, 128, 23);
+    /* color: rgb(86, 128, 23); */
+    color: rgb(96, 196, 110) !important;
+
     font-size: 1.5em !important;
 }
 .point2_2,.point4_2{
@@ -40,7 +42,9 @@
     /* border: solid 2px; */
     width: fit-content;
     text-align: center;
-    color: rgb(128, 177, 55);
+    /* color: rgb(128, 177, 55); */
+    color: rgb(96, 196, 110) !important;
+
     margin-top: 30px;
     font-size: 1em;
     font-weight: bold;
