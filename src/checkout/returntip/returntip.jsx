@@ -12,8 +12,8 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 const ReturnTip = () => {
 
     const [state, setState] = React.useState({
-        checkedA: true,
-        checkedB: true,
+        checkedA: false,
+        checkedB: false,
     });
     const handleChange = (event) => {
         setState({ ...state, [event.target.name]: event.target.checked });
